@@ -59,9 +59,9 @@
         }
     },
     "autoload": {
-        "psr-4": { "Doctrine\\DBAL\\": "src" }
+        "psr-4": { "Corma\\DBAL\\": "src" }
     },
     "autoload-dev": {
-        "psr-4": { "Doctrine\\DBAL\\Tests\\": "tests" }
+        "psr-4": { "Corma\\DBAL\\Tests\\": "tests" }
     }
 }
