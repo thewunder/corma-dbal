@@ -52,7 +52,7 @@ final class DataSourceName
     public static function fromConnectionParameters(#[SensitiveParameter]
     array $params,): self
     {
-        if (isset($params['dbname']) && str_contains($params['dbname'], '=')) {
+        if (isset($params['dbname']) && str_contains((string) $params['dbname'], '=')) {
             return new self($params['dbname']);
         }
 

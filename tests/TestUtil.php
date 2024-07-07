@@ -269,16 +269,14 @@ class TestUtil
      */
     public static function generateResultSetQuery(array $rows, AbstractPlatform $platform): string
     {
-        return implode(' UNION ALL ', array_map(static function (array $row) use ($platform): string {
-            return $platform->getDummySelectSQL(
-                implode(', ', array_map(static function (string $column, $value) use ($platform): string {
-                    if (is_string($value)) {
-                        $value = $platform->quoteStringLiteral($value);
-                    }
+        return implode(' UNION ALL ', array_map(static fn(array $row): string => $platform->getDummySelectSQL(
+            implode(', ', array_map(static function (string $column, $value) use ($platform): string {
+                if (is_string($value)) {
+                    $value = $platform->quoteStringLiteral($value);
+                }
 
-                    return $value . ' ' . $platform->quoteIdentifier($column);
-                }, array_keys($row), array_values($row))),
-            );
-        }, $rows));
+                return $value . ' ' . $platform->quoteIdentifier($column);
+            }, array_keys($row), array_values($row))),
+        ), $rows));
     }
 }

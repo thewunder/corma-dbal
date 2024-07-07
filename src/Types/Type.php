@@ -186,9 +186,7 @@ abstract class Type
     public static function getTypesMap(): array
     {
         return array_map(
-            static function (Type $type): string {
-                return $type::class;
-            },
+            static fn(Type $type): string => $type::class,
             self::getTypeRegistry()->getMap(),
         );
     }

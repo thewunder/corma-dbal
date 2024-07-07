@@ -140,7 +140,7 @@ class SQLiteSchemaManager extends AbstractSchemaManager
         // fetch regular indexes
         foreach ($tableIndexes as $tableIndex) {
             // Ignore indexes with reserved names, e.g. autoindexes
-            if (str_starts_with($tableIndex['name'], 'sqlite_')) {
+            if (str_starts_with((string) $tableIndex['name'], 'sqlite_')) {
                 continue;
             }
 
@@ -178,7 +178,7 @@ class SQLiteSchemaManager extends AbstractSchemaManager
             }
 
             $autoincrementCount++;
-            if ($autoincrementColumn !== null || strtolower($tableColumn['type']) !== 'integer') {
+            if ($autoincrementColumn !== null || strtolower((string) $tableColumn['type']) !== 'integer') {
                 continue;
             }
 
@@ -221,7 +221,7 @@ class SQLiteSchemaManager extends AbstractSchemaManager
      */
     protected function _getPortableTableColumnDefinition(array $tableColumn): Column
     {
-        preg_match('/^([^()]*)\\s*(\\(((\\d+)(,\\s*(\\d+))?)\\))?/', $tableColumn['type'], $matches);
+        preg_match('/^([^()]*)\\s*(\\(((\\d+)(,\\s*(\\d+))?)\\))?/', (string) $tableColumn['type'], $matches);
 
         $dbType = trim(strtolower($matches[1]));
 
@@ -249,7 +249,7 @@ class SQLiteSchemaManager extends AbstractSchemaManager
 
         if ($default !== null) {
             // SQLite returns the default value as a literal expression, so we need to parse it
-            if (preg_match('/^\'(.*)\'$/s', $default, $matches) === 1) {
+            if (preg_match('/^\'(.*)\'$/s', (string) $default, $matches) === 1) {
                 $default = str_replace("''", "'", $matches[1]);
             }
         }

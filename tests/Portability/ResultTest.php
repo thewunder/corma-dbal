@@ -30,33 +30,25 @@ class ResultTest extends TestCase
     {
         yield 'numeric' => [
             'fetchNumeric',
-            static function (Result $result) {
-                return $result->fetchNumeric();
-            },
+            static fn(Result $result) => $result->fetchNumeric(),
             ['bar'],
         ];
 
         yield 'associative' => [
             'fetchAssociative',
-            static function (Result $result) {
-                return $result->fetchAssociative();
-            },
+            static fn(Result $result) => $result->fetchAssociative(),
             ['foo' => 'bar'],
         ];
 
         yield 'one' => [
             'fetchOne',
-            static function (Result $result): mixed {
-                return $result->fetchOne();
-            },
+            static fn(Result $result): mixed => $result->fetchOne(),
             'bar',
         ];
 
         yield 'all-numeric' => [
             'fetchAllNumeric',
-            static function (Result $result): array {
-                return $result->fetchAllNumeric();
-            },
+            static fn(Result $result): array => $result->fetchAllNumeric(),
             [
                 ['bar'],
                 ['baz'],
@@ -65,9 +57,7 @@ class ResultTest extends TestCase
 
         yield 'all-associative' => [
             'fetchAllAssociative',
-            static function (Result $result): array {
-                return $result->fetchAllAssociative();
-            },
+            static fn(Result $result): array => $result->fetchAllAssociative(),
             [
                 ['foo' => 'bar'],
                 ['foo' => 'baz'],
@@ -76,9 +66,7 @@ class ResultTest extends TestCase
 
         yield 'first-column' => [
             'fetchFirstColumn',
-            static function (Result $result): array {
-                return $result->fetchFirstColumn();
-            },
+            static fn(Result $result): array => $result->fetchFirstColumn(),
             [
                 'bar',
                 'baz',

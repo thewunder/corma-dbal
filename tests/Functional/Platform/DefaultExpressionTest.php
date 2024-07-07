@@ -23,9 +23,7 @@ class DefaultExpressionTest extends FunctionalTestCase
             self::markTestSkipped('Not supported on MySQL');
         }
 
-        $this->assertDefaultExpression(Types::DATE_MUTABLE, static function (AbstractPlatform $platform): string {
-            return $platform->getCurrentDateSQL();
-        });
+        $this->assertDefaultExpression(Types::DATE_MUTABLE, static fn(AbstractPlatform $platform): string => $platform->getCurrentDateSQL());
     }
 
     public function testCurrentTime(): void
@@ -40,16 +38,12 @@ class DefaultExpressionTest extends FunctionalTestCase
             self::markTestSkipped('Not supported on Oracle');
         }
 
-        $this->assertDefaultExpression(Types::TIME_MUTABLE, static function (AbstractPlatform $platform): string {
-            return $platform->getCurrentTimeSQL();
-        });
+        $this->assertDefaultExpression(Types::TIME_MUTABLE, static fn(AbstractPlatform $platform): string => $platform->getCurrentTimeSQL());
     }
 
     public function testCurrentTimestamp(): void
     {
-        $this->assertDefaultExpression(Types::DATETIME_MUTABLE, static function (AbstractPlatform $platform): string {
-            return $platform->getCurrentTimestampSQL();
-        });
+        $this->assertDefaultExpression(Types::DATETIME_MUTABLE, static fn(AbstractPlatform $platform): string => $platform->getCurrentTimestampSQL());
     }
 
     private function assertDefaultExpression(string $type, callable $expression): void

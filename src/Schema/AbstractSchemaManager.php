@@ -41,9 +41,7 @@ abstract class AbstractSchemaManager
      */
     public function listDatabases(): array
     {
-        return array_map(function (array $row): string {
-            return $this->_getPortableDatabaseDefinition($row);
-        }, $this->connection->fetchAllAssociative(
+        return array_map(fn(array $row): string => $this->_getPortableDatabaseDefinition($row), $this->connection->fetchAllAssociative(
             $this->platform->getListDatabasesSQL(),
         ));
     }
@@ -70,9 +68,7 @@ abstract class AbstractSchemaManager
     public function listSequences(): array
     {
         return $this->filterAssetNames(
-            array_map(function (array $row): Sequence {
-                return $this->_getPortableSequenceDefinition($row);
-            }, $this->connection->fetchAllAssociative(
+            array_map(fn(array $row): Sequence => $this->_getPortableSequenceDefinition($row), $this->connection->fetchAllAssociative(
                 $this->platform->getListSequencesSQL(
                     $this->getDatabase(__METHOD__),
                 ),
@@ -138,9 +134,9 @@ abstract class AbstractSchemaManager
      */
     public function tablesExist(array $names): bool
     {
-        $names = array_map('strtolower', $names);
+        $names = array_map(strtolower(...), $names);
 
-        return count($names) === count(array_intersect($names, array_map('strtolower', $this->listTableNames())));
+        return count($names) === count(array_intersect($names, array_map(strtolower(...), $this->listTableNames())));
     }
 
     public function tableExists(string $tableName): bool
@@ -158,9 +154,7 @@ abstract class AbstractSchemaManager
     public function listTableNames(): array
     {
         return $this->filterAssetNames(
-            array_map(function (array $row): string {
-                return $this->_getPortableTableDefinition($row);
-            }, $this->selectTableNames(
+            array_map(fn(array $row): string => $this->_getPortableTableDefinition($row), $this->selectTableNames(
                 $this->getDatabase(__METHOD__),
             )->fetchAllAssociative()),
         );
@@ -341,9 +335,7 @@ abstract class AbstractSchemaManager
      */
     public function listViews(): array
     {
-        return array_map(function (array $row): View {
-            return $this->_getPortableViewDefinition($row);
-        }, $this->connection->fetchAllAssociative(
+        return array_map(fn(array $row): View => $this->_getPortableViewDefinition($row), $this->connection->fetchAllAssociative(
             $this->platform->getListViewsSQL(
                 $this->getDatabase(__METHOD__),
             ),
@@ -703,7 +695,7 @@ abstract class AbstractSchemaManager
                 $keyName = 'primary';
             }
 
-            $keyName = strtolower($keyName);
+            $keyName = strtolower((string) $keyName);
 
             if (! isset($result[$keyName])) {
                 $options = [

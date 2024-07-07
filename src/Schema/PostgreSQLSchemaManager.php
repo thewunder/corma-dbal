@@ -95,7 +95,7 @@ SQL,
         if (
             preg_match(
                 '(ON UPDATE ([a-zA-Z0-9]+( (NULL|ACTION|DEFAULT))?))',
-                $tableForeignKey['condef'],
+                (string) $tableForeignKey['condef'],
                 $match,
             ) === 1
         ) {
@@ -105,20 +105,20 @@ SQL,
         if (
             preg_match(
                 '(ON DELETE ([a-zA-Z0-9]+( (NULL|ACTION|DEFAULT))?))',
-                $tableForeignKey['condef'],
+                (string) $tableForeignKey['condef'],
                 $match,
             ) === 1
         ) {
             $onDelete = $match[1];
         }
 
-        $result = preg_match('/FOREIGN KEY \((.+)\) REFERENCES (.+)\((.+)\)/', $tableForeignKey['condef'], $values);
+        $result = preg_match('/FOREIGN KEY \((.+)\) REFERENCES (.+)\((.+)\)/', (string) $tableForeignKey['condef'], $values);
         assert($result === 1);
 
         // PostgreSQL returns identifiers that are keywords with quotes, we need them later, don't get
         // the idea to trim them here.
-        $localColumns   = array_map('trim', explode(',', $values[1]));
-        $foreignColumns = array_map('trim', explode(',', $values[3]));
+        $localColumns   = array_map(trim(...), explode(',', $values[1]));
+        $foreignColumns = array_map(trim(...), explode(',', $values[3]));
         $foreignTable   = $values[2];
 
         return new ForeignKeyConstraint(
@@ -161,7 +161,7 @@ SQL,
     {
         $buffer = [];
         foreach ($tableIndexes as $row) {
-            $colNumbers    = array_map('intval', explode(' ', $row['indkey']));
+            $colNumbers    = array_map(intval(...), explode(' ', (string) $row['indkey']));
             $columnNameSql = sprintf(
                 'SELECT attnum, attname FROM pg_attribute WHERE attrelid=%d AND attnum IN (%s) ORDER BY attnum ASC',
                 $row['indrelid'],
@@ -179,7 +179,7 @@ SQL,
 
                     $buffer[] = [
                         'key_name' => $row['relname'],
-                        'column_name' => trim($colRow['attname']),
+                        'column_name' => trim((string) $colRow['attname']),
                         'non_unique' => ! $row['indisunique'],
                         'primary' => $row['indisprimary'],
                         'where' => $row['where'],
@@ -223,8 +223,8 @@ SQL,
         $length = null;
 
         if (
-            in_array(strtolower($tableColumn['type']), ['varchar', 'bpchar'], true)
-            && preg_match('/\((\d*)\)/', $tableColumn['complete_type'], $matches) === 1
+            in_array(strtolower((string) $tableColumn['type']), ['varchar', 'bpchar'], true)
+            && preg_match('/\((\d*)\)/', (string) $tableColumn['complete_type'], $matches) === 1
         ) {
             $length = (int) $matches[1];
         }
@@ -237,9 +237,9 @@ SQL,
         assert(array_key_exists('complete_type', $tableColumn));
 
         if ($tableColumn['default'] !== null) {
-            if (preg_match("/^['(](.*)[')]::/", $tableColumn['default'], $matches) === 1) {
+            if (preg_match("/^['(](.*)[')]::/", (string) $tableColumn['default'], $matches) === 1) {
                 $tableColumn['default'] = $matches[1];
-            } elseif (preg_match('/^NULL::/', $tableColumn['default']) === 1) {
+            } elseif (preg_match('/^NULL::/', (string) $tableColumn['default']) === 1) {
                 $tableColumn['default'] = null;
             }
         }
@@ -262,13 +262,13 @@ SQL,
         $scale     = 0;
         $jsonb     = null;
 
-        $dbType = strtolower($tableColumn['type']);
+        $dbType = strtolower((string) $tableColumn['type']);
         if (
             $tableColumn['domain_type'] !== null
             && $tableColumn['domain_type'] !== ''
             && ! $this->platform->hasDoctrineTypeMappingFor($tableColumn['type'])
         ) {
-            $dbType                       = strtolower($tableColumn['domain_type']);
+            $dbType                       = strtolower((string) $tableColumn['domain_type']);
             $tableColumn['complete_type'] = $tableColumn['domain_complete_type'];
         }
 
@@ -322,7 +322,7 @@ SQL,
                 if (
                     preg_match(
                         '([A-Za-z]+\(([0-9]+),([0-9]+)\))',
-                        $tableColumn['complete_type'],
+                        (string) $tableColumn['complete_type'],
                         $match,
                     ) === 1
                 ) {

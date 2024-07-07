@@ -60,7 +60,7 @@ class BinaryTest extends TestCase
      */
     private function getBinaryString(): string
     {
-        return implode(array_map('chr', range(0, 255)));
+        return implode('', array_map(chr(...), range(0, 255)));
     }
 
     #[DataProvider('getInvalidDatabaseValues')]

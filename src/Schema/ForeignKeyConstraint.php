@@ -258,7 +258,7 @@ class ForeignKeyConstraint extends AbstractAsset
     private function onEvent(string $event): ?string
     {
         if (isset($this->options[$event])) {
-            $onEvent = strtoupper($this->options[$event]);
+            $onEvent = strtoupper((string) $this->options[$event]);
 
             if ($onEvent !== 'NO ACTION' && $onEvent !== 'RESTRICT') {
                 return $onEvent;

@@ -70,7 +70,7 @@ final class Statement implements StatementInterface
             $escapedParameters[] = match ($this->parameterTypes[$parameter]) {
                 ParameterType::BINARY, ParameterType::LARGE_OBJECT => $value === null
                     ? null
-                    : pg_escape_bytea($this->connection, is_resource($value) ? stream_get_contents($value) : $value),
+                    : pg_escape_bytea($this->connection, (string) (is_resource($value) ? stream_get_contents($value) : $value)),
                 default => $value,
             };
         }

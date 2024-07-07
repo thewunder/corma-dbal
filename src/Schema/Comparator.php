@@ -372,15 +372,15 @@ class Comparator
     protected function diffForeignKey(ForeignKeyConstraint $key1, ForeignKeyConstraint $key2): bool
     {
         if (
-            array_map('strtolower', $key1->getUnquotedLocalColumns())
-            !== array_map('strtolower', $key2->getUnquotedLocalColumns())
+            array_map(strtolower(...), $key1->getUnquotedLocalColumns())
+            !== array_map(strtolower(...), $key2->getUnquotedLocalColumns())
         ) {
             return true;
         }
 
         if (
-            array_map('strtolower', $key1->getUnquotedForeignColumns())
-            !== array_map('strtolower', $key2->getUnquotedForeignColumns())
+            array_map(strtolower(...), $key1->getUnquotedForeignColumns())
+            !== array_map(strtolower(...), $key2->getUnquotedForeignColumns())
         ) {
             return true;
         }

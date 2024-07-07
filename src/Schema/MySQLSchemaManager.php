@@ -85,14 +85,14 @@ class MySQLSchemaManager extends AbstractSchemaManager
                 $v['primary'] = false;
             }
 
-            if (str_contains($v['index_type'], 'FULLTEXT')) {
+            if (str_contains((string) $v['index_type'], 'FULLTEXT')) {
                 $v['flags'] = ['FULLTEXT'];
-            } elseif (str_contains($v['index_type'], 'SPATIAL')) {
+            } elseif (str_contains((string) $v['index_type'], 'SPATIAL')) {
                 $v['flags'] = ['SPATIAL'];
             }
 
             // Ignore prohibited prefix `length` for spatial index
-            if (! str_contains($v['index_type'], 'SPATIAL')) {
+            if (! str_contains((string) $v['index_type'], 'SPATIAL')) {
                 $v['length'] = isset($v['sub_part']) ? (int) $v['sub_part'] : null;
             }
 
@@ -117,7 +117,7 @@ class MySQLSchemaManager extends AbstractSchemaManager
     {
         $tableColumn = array_change_key_case($tableColumn, CASE_LOWER);
 
-        $dbType = strtolower($tableColumn['type']);
+        $dbType = strtolower((string) $tableColumn['type']);
         $dbType = strtok($dbType, '(), ');
         assert(is_string($dbType));
 
@@ -148,7 +148,7 @@ class MySQLSchemaManager extends AbstractSchemaManager
                 if (
                     preg_match(
                         '([A-Za-z]+\(([0-9]+),([0-9]+)\))',
-                        $tableColumn['type'],
+                        (string) $tableColumn['type'],
                         $match,
                     ) === 1
                 ) {
@@ -202,13 +202,13 @@ class MySQLSchemaManager extends AbstractSchemaManager
 
         $options = [
             'length'        => $length !== null ? (int) $length : null,
-            'unsigned'      => str_contains($tableColumn['type'], 'unsigned'),
+            'unsigned'      => str_contains((string) $tableColumn['type'], 'unsigned'),
             'fixed'         => $fixed,
             'default'       => $columnDefault,
             'notnull'       => $tableColumn['null'] !== 'YES',
             'scale'         => $scale,
             'precision'     => $precision,
-            'autoincrement' => str_contains($tableColumn['extra'], 'auto_increment'),
+            'autoincrement' => str_contains((string) $tableColumn['extra'], 'auto_increment'),
         ];
 
         if (isset($tableColumn['comment'])) {

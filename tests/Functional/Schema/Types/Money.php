@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Doctrine\DBAL\Tests\Functional\Schema\Types;
 
-final class Money
+final class Money implements \Stringable
 {
     public function __construct(
         private readonly string $value,

@@ -117,7 +117,7 @@ final class DsnParser
             return $this->parseRegularDatabaseUrlPath($url, $params);
         }
 
-        if (strpos($params['driver'], 'sqlite') !== false) {
+        if (str_contains((string) $params['driver'], 'sqlite')) {
             return $this->parseSqliteDatabaseUrlPath($url, $params);
         }
 
@@ -151,7 +151,7 @@ final class DsnParser
 
         $query = [];
 
-        parse_str($url['query'], $query); // simply ingest query as extra params, e.g. charset or sslmode
+        parse_str((string) $url['query'], $query); // simply ingest query as extra params, e.g. charset or sslmode
 
         return array_merge($params, $query); // parse_str wipes existing array elements
     }

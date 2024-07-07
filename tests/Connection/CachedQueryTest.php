@@ -54,9 +54,7 @@ class CachedQueryTest extends TestCase
         $connection = $this->createMock(Driver\Connection::class);
         $connection->expects(self::exactly($expectedQueryCount))
             ->method('query')
-            ->willReturnCallback(static function () use ($data): ArrayResult {
-                return new ArrayResult($data);
-            });
+            ->willReturnCallback(static fn(): ArrayResult => new ArrayResult($data));
 
         $driver = $this->createMock(Driver::class);
         $driver->method('connect')

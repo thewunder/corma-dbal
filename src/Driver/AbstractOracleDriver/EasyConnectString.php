@@ -13,7 +13,7 @@ use function sprintf;
  *
  * @link https://docs.oracle.com/database/121/NETAG/naming.htm
  */
-final class EasyConnectString
+final class EasyConnectString implements \Stringable
 {
     private function __construct(private readonly string $string)
     {

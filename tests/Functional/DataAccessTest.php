@@ -357,9 +357,7 @@ class DataAccessTest extends FunctionalTestCase
         $this->assertDateExpression(
             $buildQuery,
             $bindParams,
-            static function (AbstractPlatform $platform, string $interval): string {
-                return $platform->getDateAddSecondsExpression('test_datetime', $interval);
-            },
+            static fn(AbstractPlatform $platform, string $interval): string => $platform->getDateAddSecondsExpression('test_datetime', $interval),
             1,
             '2010-01-01 10:10:11',
         );
@@ -371,9 +369,7 @@ class DataAccessTest extends FunctionalTestCase
         $this->assertDateExpression(
             $buildQuery,
             $bindParams,
-            static function (AbstractPlatform $platform, string $interval): string {
-                return $platform->getDateSubSecondsExpression('test_datetime', $interval);
-            },
+            static fn(AbstractPlatform $platform, string $interval): string => $platform->getDateSubSecondsExpression('test_datetime', $interval),
             1,
             '2010-01-01 10:10:09',
         );
@@ -385,9 +381,7 @@ class DataAccessTest extends FunctionalTestCase
         $this->assertDateExpression(
             $buildQuery,
             $bindParams,
-            static function (AbstractPlatform $platform, string $interval): string {
-                return $platform->getDateAddMinutesExpression('test_datetime', $interval);
-            },
+            static fn(AbstractPlatform $platform, string $interval): string => $platform->getDateAddMinutesExpression('test_datetime', $interval),
             5,
             '2010-01-01 10:15:10',
         );
@@ -399,9 +393,7 @@ class DataAccessTest extends FunctionalTestCase
         $this->assertDateExpression(
             $buildQuery,
             $bindParams,
-            static function (AbstractPlatform $platform, string $interval): string {
-                return $platform->getDateSubMinutesExpression('test_datetime', $interval);
-            },
+            static fn(AbstractPlatform $platform, string $interval): string => $platform->getDateSubMinutesExpression('test_datetime', $interval),
             5,
             '2010-01-01 10:05:10',
         );
@@ -413,9 +405,7 @@ class DataAccessTest extends FunctionalTestCase
         $this->assertDateExpression(
             $buildQuery,
             $bindParams,
-            static function (AbstractPlatform $platform, string $interval): string {
-                return $platform->getDateAddHourExpression('test_datetime', $interval);
-            },
+            static fn(AbstractPlatform $platform, string $interval): string => $platform->getDateAddHourExpression('test_datetime', $interval),
             3,
             '2010-01-01 13:10:10',
         );
@@ -427,9 +417,7 @@ class DataAccessTest extends FunctionalTestCase
         $this->assertDateExpression(
             $buildQuery,
             $bindParams,
-            static function (AbstractPlatform $platform, string $interval): string {
-                return $platform->getDateSubHourExpression('test_datetime', $interval);
-            },
+            static fn(AbstractPlatform $platform, string $interval): string => $platform->getDateSubHourExpression('test_datetime', $interval),
             3,
             '2010-01-01 07:10:10',
         );
@@ -441,9 +429,7 @@ class DataAccessTest extends FunctionalTestCase
         $this->assertDateExpression(
             $buildQuery,
             $bindParams,
-            static function (AbstractPlatform $platform, string $interval): string {
-                return $platform->getDateAddDaysExpression('test_datetime', $interval);
-            },
+            static fn(AbstractPlatform $platform, string $interval): string => $platform->getDateAddDaysExpression('test_datetime', $interval),
             10,
             '2010-01-11 10:10:10',
         );
@@ -455,9 +441,7 @@ class DataAccessTest extends FunctionalTestCase
         $this->assertDateExpression(
             $buildQuery,
             $bindParams,
-            static function (AbstractPlatform $platform, string $interval): string {
-                return $platform->getDateSubDaysExpression('test_datetime', $interval);
-            },
+            static fn(AbstractPlatform $platform, string $interval): string => $platform->getDateSubDaysExpression('test_datetime', $interval),
             10,
             '2009-12-22 10:10:10',
         );
@@ -469,9 +453,7 @@ class DataAccessTest extends FunctionalTestCase
         $this->assertDateExpression(
             $buildQuery,
             $bindParams,
-            static function (AbstractPlatform $platform, string $interval): string {
-                return $platform->getDateAddWeeksExpression('test_datetime', $interval);
-            },
+            static fn(AbstractPlatform $platform, string $interval): string => $platform->getDateAddWeeksExpression('test_datetime', $interval),
             1,
             '2010-01-08 10:10:10',
         );
@@ -483,9 +465,7 @@ class DataAccessTest extends FunctionalTestCase
         $this->assertDateExpression(
             $buildQuery,
             $bindParams,
-            static function (AbstractPlatform $platform, string $interval): string {
-                return $platform->getDateSubWeeksExpression('test_datetime', $interval);
-            },
+            static fn(AbstractPlatform $platform, string $interval): string => $platform->getDateSubWeeksExpression('test_datetime', $interval),
             1,
             '2009-12-25 10:10:10',
         );
@@ -497,9 +477,7 @@ class DataAccessTest extends FunctionalTestCase
         $this->assertDateExpression(
             $buildQuery,
             $bindParams,
-            static function (AbstractPlatform $platform, string $interval): string {
-                return $platform->getDateAddMonthExpression('test_datetime', $interval);
-            },
+            static fn(AbstractPlatform $platform, string $interval): string => $platform->getDateAddMonthExpression('test_datetime', $interval),
             2,
             '2010-03-01 10:10:10',
         );
@@ -511,9 +489,7 @@ class DataAccessTest extends FunctionalTestCase
         $this->assertDateExpression(
             $buildQuery,
             $bindParams,
-            static function (AbstractPlatform $platform, string $interval): string {
-                return $platform->getDateSubMonthExpression('test_datetime', $interval);
-            },
+            static fn(AbstractPlatform $platform, string $interval): string => $platform->getDateSubMonthExpression('test_datetime', $interval),
             2,
             '2009-11-01 10:10:10',
         );
@@ -525,9 +501,7 @@ class DataAccessTest extends FunctionalTestCase
         $this->assertDateExpression(
             $buildQuery,
             $bindParams,
-            static function (AbstractPlatform $platform, string $interval): string {
-                return $platform->getDateAddQuartersExpression('test_datetime', $interval);
-            },
+            static fn(AbstractPlatform $platform, string $interval): string => $platform->getDateAddQuartersExpression('test_datetime', $interval),
             3,
             '2010-10-01 10:10:10',
         );
@@ -539,9 +513,7 @@ class DataAccessTest extends FunctionalTestCase
         $this->assertDateExpression(
             $buildQuery,
             $bindParams,
-            static function (AbstractPlatform $platform, string $interval): string {
-                return $platform->getDateSubQuartersExpression('test_datetime', $interval);
-            },
+            static fn(AbstractPlatform $platform, string $interval): string => $platform->getDateSubQuartersExpression('test_datetime', $interval),
             3,
             '2009-04-01 10:10:10',
         );
@@ -553,9 +525,7 @@ class DataAccessTest extends FunctionalTestCase
         $this->assertDateExpression(
             $buildQuery,
             $bindParams,
-            static function (AbstractPlatform $platform, string $interval): string {
-                return $platform->getDateAddYearsExpression('test_datetime', $interval);
-            },
+            static fn(AbstractPlatform $platform, string $interval): string => $platform->getDateAddYearsExpression('test_datetime', $interval),
             6,
             '2016-01-01 10:10:10',
         );
@@ -567,9 +537,7 @@ class DataAccessTest extends FunctionalTestCase
         $this->assertDateExpression(
             $buildQuery,
             $bindParams,
-            static function (AbstractPlatform $platform, string $interval): string {
-                return $platform->getDateSubYearsExpression('test_datetime', $interval);
-            },
+            static fn(AbstractPlatform $platform, string $interval): string => $platform->getDateSubYearsExpression('test_datetime', $interval),
             6,
             '2004-01-01 10:10:10',
         );
@@ -599,7 +567,7 @@ class DataAccessTest extends FunctionalTestCase
         $date = $stmt->executeQuery()->fetchOne();
         self::assertNotFalse($date);
 
-        self::assertEquals($expected, date('Y-m-d H:i:s', strtotime($date)));
+        self::assertEquals($expected, date('Y-m-d H:i:s', strtotime((string) $date)));
     }
 
     /** @return mixed[][] */
@@ -607,24 +575,18 @@ class DataAccessTest extends FunctionalTestCase
     {
         return [
             'bind' => [
-                static function (int $interval): string {
-                    return '?';
-                },
+                static fn(int $interval): string => '?',
                 static function (Statement $stmt, int $interval): void {
                     $stmt->bindValue(1, $interval, ParameterType::INTEGER);
                 },
             ],
             'literal' => [
-                static function (int $interval): string {
-                    return sprintf('%d', $interval);
-                },
+                static fn(int $interval): string => sprintf('%d', $interval),
                 static function (Statement $stmt, int $interval): void {
                 },
             ],
             'expression' => [
-                static function (int $interval): string {
-                    return sprintf('(0 + %d)', $interval);
-                },
+                static fn(int $interval): string => sprintf('(0 + %d)', $interval),
                 static function (Statement $stmt, int $interval): void {
                 },
             ],

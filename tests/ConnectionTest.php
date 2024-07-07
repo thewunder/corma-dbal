@@ -408,33 +408,25 @@ class ConnectionTest extends TestCase
     {
         yield 'numeric' => [
             'fetchNumeric',
-            static function (Connection $connection, string $query, array $params, array $types) {
-                return $connection->fetchNumeric($query, $params, $types);
-            },
+            static fn(Connection $connection, string $query, array $params, array $types) => $connection->fetchNumeric($query, $params, $types),
             ['bar'],
         ];
 
         yield 'associative' => [
             'fetchAssociative',
-            static function (Connection $connection, string $query, array $params, array $types) {
-                return $connection->fetchAssociative($query, $params, $types);
-            },
+            static fn(Connection $connection, string $query, array $params, array $types) => $connection->fetchAssociative($query, $params, $types),
             ['foo' => 'bar'],
         ];
 
         yield 'one' => [
             'fetchOne',
-            static function (Connection $connection, string $query, array $params, array $types) {
-                return $connection->fetchOne($query, $params, $types);
-            },
+            static fn(Connection $connection, string $query, array $params, array $types) => $connection->fetchOne($query, $params, $types),
             'bar',
         ];
 
         yield 'all-numeric' => [
             'fetchAllNumeric',
-            static function (Connection $connection, string $query, array $params, array $types): array {
-                return $connection->fetchAllNumeric($query, $params, $types);
-            },
+            static fn(Connection $connection, string $query, array $params, array $types): array => $connection->fetchAllNumeric($query, $params, $types),
             [
                 ['bar'],
                 ['baz'],
@@ -443,9 +435,7 @@ class ConnectionTest extends TestCase
 
         yield 'all-associative' => [
             'fetchAllAssociative',
-            static function (Connection $connection, string $query, array $params, array $types): array {
-                return $connection->fetchAllAssociative($query, $params, $types);
-            },
+            static fn(Connection $connection, string $query, array $params, array $types): array => $connection->fetchAllAssociative($query, $params, $types),
             [
                 ['foo' => 'bar'],
                 ['foo' => 'baz'],
@@ -454,9 +444,7 @@ class ConnectionTest extends TestCase
 
         yield 'first-column' => [
             'fetchFirstColumn',
-            static function (Connection $connection, string $query, array $params, array $types): array {
-                return $connection->fetchFirstColumn($query, $params, $types);
-            },
+            static fn(Connection $connection, string $query, array $params, array $types): array => $connection->fetchFirstColumn($query, $params, $types),
             [
                 'bar',
                 'baz',

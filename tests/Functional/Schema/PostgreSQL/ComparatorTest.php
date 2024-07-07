@@ -37,9 +37,7 @@ final class ComparatorTest extends FunctionalTestCase
      */
     public function testCompareBinaryAndBlob(): void
     {
-        $this->testColumnModification(static function (Table $table, string $name): Column {
-            return $table->addColumn($name, Types::BINARY);
-        }, static function (Column $column): void {
+        $this->testColumnModification(static fn(Table $table, string $name): Column => $table->addColumn($name, Types::BINARY), static function (Column $column): void {
             $column->setType(Type::getType(Types::BLOB));
         });
     }
@@ -51,9 +49,7 @@ final class ComparatorTest extends FunctionalTestCase
      */
     public function testCompareBinaryAndVarbinary(): void
     {
-        $this->testColumnModification(static function (Table $table, string $name): Column {
-            return $table->addColumn($name, Types::BINARY);
-        }, static function (Column $column): void {
+        $this->testColumnModification(static fn(Table $table, string $name): Column => $table->addColumn($name, Types::BINARY), static function (Column $column): void {
             $column->setFixed(true);
         });
     }
@@ -65,9 +61,7 @@ final class ComparatorTest extends FunctionalTestCase
      */
     public function testCompareBinariesOfDifferentLength(): void
     {
-        $this->testColumnModification(static function (Table $table, string $name): Column {
-            return $table->addColumn($name, Types::BINARY, ['length' => 16]);
-        }, static function (Column $column): void {
+        $this->testColumnModification(static fn(Table $table, string $name): Column => $table->addColumn($name, Types::BINARY, ['length' => 16]), static function (Column $column): void {
             $column->setLength(32);
         });
     }

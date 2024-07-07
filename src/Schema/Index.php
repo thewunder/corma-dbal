@@ -140,7 +140,7 @@ class Index extends AbstractAsset
     public function hasColumnAtPosition(string $name, int $pos = 0): bool
     {
         $name         = $this->trimQuotes(strtolower($name));
-        $indexColumns = array_map('strtolower', $this->getUnquotedColumns());
+        $indexColumns = array_map(strtolower(...), $this->getUnquotedColumns());
 
         return array_search($name, $indexColumns, true) === $pos;
     }
@@ -304,9 +304,7 @@ class Index extends AbstractAsset
      */
     private function hasSameColumnLengths(self $other): bool
     {
-        $filter = static function (?int $length): bool {
-            return $length !== null;
-        };
+        $filter = static fn(?int $length): bool => $length !== null;
 
         return array_filter($this->options['lengths'] ?? [], $filter)
             === array_filter($other->options['lengths'] ?? [], $filter);

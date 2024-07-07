@@ -498,7 +498,7 @@ class PostgreSQLPlatform extends AbstractPlatform
         return $this->doConvertBooleans(
             $item,
             /** @param mixed $value */
-            static function ($value): string {
+            static function (mixed $value): string {
                 if ($value === null) {
                     return 'NULL';
                 }
@@ -517,9 +517,7 @@ class PostgreSQLPlatform extends AbstractPlatform
         return $this->doConvertBooleans(
             $item,
             /** @param mixed $value */
-            static function ($value): ?int {
-                return $value === null ? null : (int) $value;
-            },
+            static fn(mixed $value): ?int => $value === null ? null : (int) $value,
         );
     }
 

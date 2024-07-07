@@ -288,7 +288,7 @@ class SQLitePlatform extends AbstractPlatform
 
         $tableComment = '';
         if (isset($options['comment'])) {
-            $comment = trim($options['comment'], " '");
+            $comment = trim((string) $options['comment'], " '");
 
             $tableComment = $this->getInlineTableCommentSQL($comment);
         }
@@ -560,7 +560,7 @@ class SQLitePlatform extends AbstractPlatform
             return $this->getCreatePrimaryKeySQL($index, $table);
         }
 
-        if (strpos($table, '.') !== false) {
+        if (str_contains($table, '.')) {
             [$schema, $table] = explode('.', $table);
             $name             = $schema . '.' . $name;
         }

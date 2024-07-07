@@ -30,11 +30,8 @@ use const PHP_INT_SIZE;
 
 final class Result implements ResultInterface
 {
-    private ?PgSqlResult $result;
-
-    public function __construct(PgSqlResult $result)
+    public function __construct(private ?PgSqlResult $result)
     {
-        $this->result = $result;
     }
 
     public function __destruct()

@@ -252,9 +252,7 @@ class ConnectionTest extends FunctionalTestCase
     {
         $this->createTestTable();
 
-        $res = $this->connection->transactional(static function (Connection $connection) {
-            return $connection->insert(self::TABLE, ['id' => 2]);
-        });
+        $res = $this->connection->transactional(static fn(Connection $connection) => $connection->insert(self::TABLE, ['id' => 2]));
 
         self::assertSame(1, $res);
         self::assertSame(0, $this->connection->getTransactionNestingLevel());
@@ -262,9 +260,7 @@ class ConnectionTest extends FunctionalTestCase
 
     public function testTransactionalReturnValue(): void
     {
-        $res = $this->connection->transactional(static function (): int {
-            return 42;
-        });
+        $res = $this->connection->transactional(static fn(): int => 42);
 
         self::assertEquals(42, $res);
     }

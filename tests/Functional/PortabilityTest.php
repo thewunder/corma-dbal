@@ -87,7 +87,7 @@ class PortabilityTest extends FunctionalTestCase
         ));
 
         self::assertArrayHasKey('test_string', $row, 'Case should be lowered.');
-        self::assertEquals(3, strlen($row['test_string']));
+        self::assertEquals(3, strlen((string) $row['test_string']));
         self::assertNull($row['test_null']);
         self::assertArrayNotHasKey(0, $row, 'The row should not contain numerical keys.');
     }

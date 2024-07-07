@@ -88,9 +88,7 @@ class TableDiff
     {
         $this->addedIndexes = array_filter(
             $this->addedIndexes,
-            static function (Index $addedIndex) use ($index): bool {
-                return $addedIndex !== $index;
-            },
+            static fn(Index $addedIndex): bool => $addedIndex !== $index,
         );
     }
 
@@ -114,9 +112,7 @@ class TableDiff
     {
         $this->droppedIndexes = array_filter(
             $this->droppedIndexes,
-            static function (Index $droppedIndex) use ($index): bool {
-                return $droppedIndex !== $index;
-            },
+            static fn(Index $droppedIndex): bool => $droppedIndex !== $index,
         );
     }
 
