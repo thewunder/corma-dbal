@@ -1476,4 +1476,79 @@ class QueryBuilder implements \Stringable
 
         return $this;
     }
+
+    public function getConnection(): Connection
+    {
+        return $this->connection;
+    }
+
+    public function getType(): QueryType
+    {
+        return $this->type;
+    }
+
+    public function getSelect(): array
+    {
+        return $this->select;
+    }
+
+    public function getFrom(): array
+    {
+        return $this->from;
+    }
+
+    public function getJoin(): array
+    {
+        return $this->join;
+    }
+
+    public function getWhere(): CompositeExpression|string|null
+    {
+        return $this->where;
+    }
+
+    public function getGroupBy(): array
+    {
+        return $this->groupBy;
+    }
+
+    public function getHaving(): CompositeExpression|string|null
+    {
+        return $this->having;
+    }
+
+    public function getOrderBy(): array
+    {
+        return $this->orderBy;
+    }
+
+    public function getTable(): ?string
+    {
+        return $this->table;
+    }
+
+    public function isDistinct(): bool
+    {
+        return $this->distinct;
+    }
+
+    public function getTypes(): array
+    {
+        return $this->types;
+    }
+
+    public function getParams(): array
+    {
+        return $this->params;
+    }
+
+    public function getValues(): array
+    {
+        return $this->values;
+    }
+
+    public function getSet(): array
+    {
+        return $this->set;
+    }
 }

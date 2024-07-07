@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Doctrine\DBAL\Query;
 
-/** @internal */
 enum QueryType
 {
     case SELECT;
