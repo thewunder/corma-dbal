@@ -101,19 +101,6 @@ class ResultTest extends FunctionalTestCase
 
         try {
             while ($result->fetchOne()) {
-                // Attempt to access all remaining rows from the original fetch
-                // The rows locally cached from the default prefetch will first be used
-                // but when the result attempts to get the remaining 10 rows beyond
-                // the first prefetch, nothing will be returned
-                //
-                // PHP oci8 oci_fetch_array will issue a PHP E_WARNING when the 2nd prefetch occurs
-                // oci_fetch_array(): ORA-04068: existing state of packages has been discarded
-                // ORA-04061: existing state of function "ROOT.TEST_ORACLE_FETCH_FAILURE" has been invalidated
-                // ORA-04065: not executed, altered or dropped function "ROOT.TEST_ORACLE_FETCH_FAILURE"
-                //
-                // If there was no issue, this should have returned rows totalling 10
-                // higher than the oci8 default prefetch
-                continue;
             }
         } finally {
             if ($invalidateDataMidFetch) {

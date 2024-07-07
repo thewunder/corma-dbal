@@ -20,7 +20,7 @@ class MySQL80Keywords extends MySQLKeywords
     {
         $keywords = parent::getKeywords();
 
-        $keywords = array_merge($keywords, [
+        return array_merge($keywords, [
             'ADMIN',
             'ARRAY',
             'CUBE',
@@ -53,7 +53,5 @@ class MySQL80Keywords extends MySQLKeywords
             'SYSTEM',
             'WINDOW',
         ]);
-
-        return $keywords;
     }
 }

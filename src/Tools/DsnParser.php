@@ -85,9 +85,8 @@ final class DsnParser
         }
 
         $params = $this->parseDatabaseUrlPath($url, $params);
-        $params = $this->parseDatabaseUrlQuery($url, $params);
 
-        return $params;
+        return $this->parseDatabaseUrlQuery($url, $params);
     }
 
     /**

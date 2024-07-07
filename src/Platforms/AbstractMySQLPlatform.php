@@ -691,9 +691,7 @@ abstract class AbstractMySQLPlatform extends AbstractPlatform
             $query .= ' MATCH ' . $foreignKey->getOption('match');
         }
 
-        $query .= parent::getAdvancedForeignKeyOptionsSQL($foreignKey);
-
-        return $query;
+        return $query . parent::getAdvancedForeignKeyOptionsSQL($foreignKey);
     }
 
     public function getDropIndexSQL(string $name, string $table): string

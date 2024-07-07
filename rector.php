@@ -13,5 +13,4 @@ return RectorConfig::configure()
     ])
     ->withPhpSets()
     ->withSets([PHPUnitSetList::PHPUNIT_100])
-    ->withTypeCoverageLevel(20)
     ->withDeadCodeLevel(22);

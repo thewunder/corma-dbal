@@ -47,10 +47,8 @@ class SQLiteSchemaManager extends AbstractSchemaManager
     {
         $columnsByTable = parent::fetchForeignKeyColumnsByTable($databaseName);
 
-        if (count($columnsByTable) > 0) {
-            foreach ($columnsByTable as $table => $columns) {
-                $columnsByTable[$table] = $this->addDetailsToTableForeignKeyColumns($table, $columns);
-            }
+        foreach ($columnsByTable as $table => $columns) {
+            $columnsByTable[$table] = $this->addDetailsToTableForeignKeyColumns($table, $columns);
         }
 
         return $columnsByTable;

@@ -147,7 +147,7 @@ abstract class AbstractAsset
      */
     protected function _generateIdentifierName(array $columnNames, string $prefix = '', int $maxSize = 30): string
     {
-        $hash = implode('', array_map(static fn($column): string => dechex(crc32((string) $column)), $columnNames));
+        $hash = implode('', array_map(static fn($column): string => dechex(crc32($column)), $columnNames));
 
         return strtoupper(substr($prefix . '_' . $hash, 0, $maxSize));
     }
