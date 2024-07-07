@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Query;
+namespace Corma\DBAL\Query;
 
-use Doctrine\DBAL\Query\ForUpdate\ConflictResolutionMode;
+use Corma\DBAL\Query\ForUpdate\ConflictResolutionMode;
 
 /** @internal */
 final class ForUpdate

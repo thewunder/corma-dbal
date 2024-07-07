@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Schema;
+namespace Corma\DBAL\Schema;
 
 use function array_filter;
 use function count;

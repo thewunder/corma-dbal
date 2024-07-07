@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Driver;
+namespace Corma\DBAL\Tests\Driver;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Driver\AbstractSQLServerDriver\Exception\PortWithoutHost;
-use Doctrine\DBAL\Driver\API\ExceptionConverter as ExceptionConverterInterface;
-use Doctrine\DBAL\Driver\API\SQLSrv\ExceptionConverter;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Platforms\SQLServerPlatform;
-use Doctrine\DBAL\Schema\AbstractSchemaManager;
-use Doctrine\DBAL\Schema\SQLServerSchemaManager;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Driver\AbstractSQLServerDriver\Exception\PortWithoutHost;
+use Corma\DBAL\Driver\API\ExceptionConverter as ExceptionConverterInterface;
+use Corma\DBAL\Driver\API\SQLSrv\ExceptionConverter;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Platforms\SQLServerPlatform;
+use Corma\DBAL\Schema\AbstractSchemaManager;
+use Corma\DBAL\Schema\SQLServerSchemaManager;
 
 /** @extends AbstractDriverTestCase<SQLServerPlatform> */
 abstract class AbstractSQLServerDriverTestCase extends AbstractDriverTestCase

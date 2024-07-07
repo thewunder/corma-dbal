@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Schema;
+namespace Corma\DBAL\Schema;
 
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Platforms\DB2Platform;
-use Doctrine\DBAL\Result;
-use Doctrine\DBAL\Types\Type;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Platforms\DB2Platform;
+use Corma\DBAL\Result;
+use Corma\DBAL\Types\Type;
+use Corma\DBAL\Types\Types;
 
 use function array_change_key_case;
 use function implode;

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Platform;
+namespace Corma\DBAL\Tests\Functional\Platform;
 
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Tests\FunctionalTestCase;
 
 final class BitwiseExpressionTest extends FunctionalTestCase
 {

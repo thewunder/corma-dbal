@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Platforms\MySQL;
+namespace Corma\DBAL\Tests\Platforms\MySQL;
 
-use Doctrine\DBAL\Platforms\MySQL\CharsetMetadataProvider;
-use Doctrine\DBAL\Platforms\MySQL\CollationMetadataProvider;
-use Doctrine\DBAL\Platforms\MySQL\Comparator;
-use Doctrine\DBAL\Platforms\MySQL\DefaultTableOptions;
-use Doctrine\DBAL\Platforms\MySQLPlatform;
-use Doctrine\DBAL\Tests\Schema\AbstractComparatorTestCase;
+use Corma\DBAL\Platforms\MySQL\CharsetMetadataProvider;
+use Corma\DBAL\Platforms\MySQL\CollationMetadataProvider;
+use Corma\DBAL\Platforms\MySQL\Comparator;
+use Corma\DBAL\Platforms\MySQL\DefaultTableOptions;
+use Corma\DBAL\Platforms\MySQLPlatform;
+use Corma\DBAL\Tests\Schema\AbstractComparatorTestCase;
 
 class ComparatorTest extends AbstractComparatorTestCase
 {

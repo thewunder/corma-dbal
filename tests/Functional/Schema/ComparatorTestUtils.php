@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Schema;
+namespace Corma\DBAL\Tests\Functional\Schema;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Schema\AbstractSchemaManager;
-use Doctrine\DBAL\Schema\Comparator;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Schema\TableDiff;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Schema\AbstractSchemaManager;
+use Corma\DBAL\Schema\Comparator;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Schema\TableDiff;
 use PHPUnit\Framework\TestCase;
 
 final class ComparatorTestUtils

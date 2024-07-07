@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\Middleware;
+namespace Corma\DBAL\Driver\Middleware;
 
-use Doctrine\DBAL\Driver\Result;
+use Corma\DBAL\Driver\Result;
 
 abstract class AbstractResultMiddleware implements Result
 {

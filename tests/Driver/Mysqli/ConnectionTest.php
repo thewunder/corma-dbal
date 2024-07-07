@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Driver\Mysqli;
+namespace Corma\DBAL\Tests\Driver\Mysqli;
 
-use Doctrine\DBAL\Driver\Mysqli\Driver;
-use Doctrine\DBAL\Driver\Mysqli\Exception\HostRequired;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Driver\Mysqli\Driver;
+use Corma\DBAL\Driver\Mysqli\Exception\HostRequired;
+use Corma\DBAL\Tests\FunctionalTestCase;
 use PHPUnit\Framework\Attributes\RequiresPhpExtension;
 
 #[RequiresPhpExtension('mysqli')]

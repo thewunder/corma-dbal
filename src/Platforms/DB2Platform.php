@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Platforms;
+namespace Corma\DBAL\Platforms;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Platforms\Exception\NotSupported;
-use Doctrine\DBAL\Platforms\Keywords\DB2Keywords;
-use Doctrine\DBAL\Platforms\Keywords\KeywordList;
-use Doctrine\DBAL\Schema\ColumnDiff;
-use Doctrine\DBAL\Schema\DB2SchemaManager;
-use Doctrine\DBAL\Schema\Identifier;
-use Doctrine\DBAL\Schema\Index;
-use Doctrine\DBAL\Schema\TableDiff;
-use Doctrine\DBAL\SQL\Builder\DefaultSelectSQLBuilder;
-use Doctrine\DBAL\SQL\Builder\SelectSQLBuilder;
-use Doctrine\DBAL\TransactionIsolationLevel;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Platforms\Exception\NotSupported;
+use Corma\DBAL\Platforms\Keywords\DB2Keywords;
+use Corma\DBAL\Platforms\Keywords\KeywordList;
+use Corma\DBAL\Schema\ColumnDiff;
+use Corma\DBAL\Schema\DB2SchemaManager;
+use Corma\DBAL\Schema\Identifier;
+use Corma\DBAL\Schema\Index;
+use Corma\DBAL\Schema\TableDiff;
+use Corma\DBAL\SQL\Builder\DefaultSelectSQLBuilder;
+use Corma\DBAL\SQL\Builder\SelectSQLBuilder;
+use Corma\DBAL\TransactionIsolationLevel;
+use Corma\DBAL\Types\Types;
 
 use function array_merge;
 use function count;

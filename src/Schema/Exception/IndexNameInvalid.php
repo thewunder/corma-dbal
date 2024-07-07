@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Schema\Exception;
+namespace Corma\DBAL\Schema\Exception;
 
-use Doctrine\DBAL\Schema\SchemaException;
+use Corma\DBAL\Schema\SchemaException;
 use InvalidArgumentException;
 
 use function sprintf;

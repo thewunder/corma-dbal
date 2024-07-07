@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL;
+namespace Corma\DBAL;
 
-use Doctrine\DBAL\Driver\API\ExceptionConverter;
-use Doctrine\DBAL\Driver\Connection as DriverConnection;
-use Doctrine\DBAL\Driver\Exception;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Driver\API\ExceptionConverter;
+use Corma\DBAL\Driver\Connection as DriverConnection;
+use Corma\DBAL\Driver\Exception;
+use Corma\DBAL\Platforms\AbstractPlatform;
 use SensitiveParameter;
 
 /**

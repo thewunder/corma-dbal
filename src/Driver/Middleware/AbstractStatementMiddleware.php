@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\Middleware;
+namespace Corma\DBAL\Driver\Middleware;
 
-use Doctrine\DBAL\Driver\Result;
-use Doctrine\DBAL\Driver\Statement;
-use Doctrine\DBAL\ParameterType;
+use Corma\DBAL\Driver\Result;
+use Corma\DBAL\Driver\Statement;
+use Corma\DBAL\ParameterType;
 
 abstract class AbstractStatementMiddleware implements Statement
 {

@@ -2,24 +2,24 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Platforms;
+namespace Corma\DBAL\Platforms;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Exception\InvalidColumnType\ColumnLengthRequired;
-use Doctrine\DBAL\LockMode;
-use Doctrine\DBAL\Platforms\Keywords\KeywordList;
-use Doctrine\DBAL\Platforms\Keywords\SQLServerKeywords;
-use Doctrine\DBAL\Platforms\SQLServer\SQL\Builder\SQLServerSelectSQLBuilder;
-use Doctrine\DBAL\Schema\Column;
-use Doctrine\DBAL\Schema\ColumnDiff;
-use Doctrine\DBAL\Schema\Identifier;
-use Doctrine\DBAL\Schema\Index;
-use Doctrine\DBAL\Schema\Sequence;
-use Doctrine\DBAL\Schema\SQLServerSchemaManager;
-use Doctrine\DBAL\Schema\TableDiff;
-use Doctrine\DBAL\SQL\Builder\SelectSQLBuilder;
-use Doctrine\DBAL\TransactionIsolationLevel;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Exception\InvalidColumnType\ColumnLengthRequired;
+use Corma\DBAL\LockMode;
+use Corma\DBAL\Platforms\Keywords\KeywordList;
+use Corma\DBAL\Platforms\Keywords\SQLServerKeywords;
+use Corma\DBAL\Platforms\SQLServer\SQL\Builder\SQLServerSelectSQLBuilder;
+use Corma\DBAL\Schema\Column;
+use Corma\DBAL\Schema\ColumnDiff;
+use Corma\DBAL\Schema\Identifier;
+use Corma\DBAL\Schema\Index;
+use Corma\DBAL\Schema\Sequence;
+use Corma\DBAL\Schema\SQLServerSchemaManager;
+use Corma\DBAL\Schema\TableDiff;
+use Corma\DBAL\SQL\Builder\SelectSQLBuilder;
+use Corma\DBAL\TransactionIsolationLevel;
+use Corma\DBAL\Types\Types;
 use InvalidArgumentException;
 
 use function array_merge;

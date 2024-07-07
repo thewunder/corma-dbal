@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Connection;
+namespace Corma\DBAL\Tests\Connection;
 
-use Doctrine\DBAL\ArrayParameters\Exception\MissingNamedParameter;
-use Doctrine\DBAL\ArrayParameters\Exception\MissingPositionalParameter;
-use Doctrine\DBAL\ArrayParameterType;
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\ExpandArrayParameters;
-use Doctrine\DBAL\ParameterType;
-use Doctrine\DBAL\SQL\Parser;
-use Doctrine\DBAL\Types\Type;
+use Corma\DBAL\ArrayParameters\Exception\MissingNamedParameter;
+use Corma\DBAL\ArrayParameters\Exception\MissingPositionalParameter;
+use Corma\DBAL\ArrayParameterType;
+use Corma\DBAL\Connection;
+use Corma\DBAL\ExpandArrayParameters;
+use Corma\DBAL\ParameterType;
+use Corma\DBAL\SQL\Parser;
+use Corma\DBAL\Types\Type;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

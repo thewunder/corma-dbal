@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Platforms;
+namespace Corma\DBAL\Tests\Platforms;
 
-use Doctrine\DBAL\Exception\InvalidColumnDeclaration;
-use Doctrine\DBAL\Platforms\AbstractMySQLPlatform;
-use Doctrine\DBAL\Platforms\MySQL;
-use Doctrine\DBAL\Platforms\MySQL\CharsetMetadataProvider;
-use Doctrine\DBAL\Platforms\MySQL\CollationMetadataProvider;
-use Doctrine\DBAL\Platforms\MySQL\DefaultTableOptions;
-use Doctrine\DBAL\Schema\Comparator;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\TransactionIsolationLevel;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Exception\InvalidColumnDeclaration;
+use Corma\DBAL\Platforms\AbstractMySQLPlatform;
+use Corma\DBAL\Platforms\MySQL;
+use Corma\DBAL\Platforms\MySQL\CharsetMetadataProvider;
+use Corma\DBAL\Platforms\MySQL\CollationMetadataProvider;
+use Corma\DBAL\Platforms\MySQL\DefaultTableOptions;
+use Corma\DBAL\Schema\Comparator;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\TransactionIsolationLevel;
+use Corma\DBAL\Types\Types;
 
 use function array_shift;
 

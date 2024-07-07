@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Driver;
+namespace Corma\DBAL\Tests\Driver;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Driver;
-use Doctrine\DBAL\Driver\API\ExceptionConverter;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Schema\AbstractSchemaManager;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Driver;
+use Corma\DBAL\Driver\API\ExceptionConverter;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Schema\AbstractSchemaManager;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 

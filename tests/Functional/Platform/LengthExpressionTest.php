@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Platform;
+namespace Corma\DBAL\Tests\Functional\Platform;
 
-use Doctrine\DBAL\Platforms\SQLServerPlatform;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Platforms\SQLServerPlatform;
+use Corma\DBAL\Tests\FunctionalTestCase;
 use PHPUnit\Framework\Attributes\DataProvider;
 
 final class LengthExpressionTest extends FunctionalTestCase

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Driver;
+namespace Corma\DBAL\Tests\Functional\Driver;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Driver;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Driver;
+use Corma\DBAL\Tests\FunctionalTestCase;
 use PHPUnit\Framework\Constraint\IsType;
 
 abstract class AbstractDriverTestCase extends FunctionalTestCase

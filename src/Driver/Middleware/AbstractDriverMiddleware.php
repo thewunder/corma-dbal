@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\Middleware;
+namespace Corma\DBAL\Driver\Middleware;
 
-use Doctrine\DBAL\Driver;
-use Doctrine\DBAL\Driver\API\ExceptionConverter;
-use Doctrine\DBAL\Driver\Connection as DriverConnection;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\ServerVersionProvider;
+use Corma\DBAL\Driver;
+use Corma\DBAL\Driver\API\ExceptionConverter;
+use Corma\DBAL\Driver\Connection as DriverConnection;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\ServerVersionProvider;
 use SensitiveParameter;
 
 abstract class AbstractDriverMiddleware implements Driver

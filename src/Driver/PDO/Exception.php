@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\PDO;
+namespace Corma\DBAL\Driver\PDO;
 
-use Doctrine\DBAL\Driver\AbstractException;
+use Corma\DBAL\Driver\AbstractException;
 use PDOException;
 
 /**

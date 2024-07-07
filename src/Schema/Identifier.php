@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Schema;
+namespace Corma\DBAL\Schema;
 
 /**
  * An abstraction class for an asset identifier.

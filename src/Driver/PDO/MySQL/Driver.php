@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\PDO\MySQL;
+namespace Corma\DBAL\Driver\PDO\MySQL;
 
-use Doctrine\DBAL\Driver\AbstractMySQLDriver;
-use Doctrine\DBAL\Driver\PDO\Connection;
-use Doctrine\DBAL\Driver\PDO\Exception;
+use Corma\DBAL\Driver\AbstractMySQLDriver;
+use Corma\DBAL\Driver\PDO\Connection;
+use Corma\DBAL\Driver\PDO\Exception;
 use PDO;
 use PDOException;
 use SensitiveParameter;

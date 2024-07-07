@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Driver\OCI8;
+namespace Corma\DBAL\Tests\Functional\Driver\OCI8;
 
-use Doctrine\DBAL\Driver as DriverInterface;
-use Doctrine\DBAL\Driver\OCI8\Driver;
-use Doctrine\DBAL\Tests\Functional\Driver\AbstractDriverTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
+use Corma\DBAL\Driver as DriverInterface;
+use Corma\DBAL\Driver\OCI8\Driver;
+use Corma\DBAL\Tests\Functional\Driver\AbstractDriverTestCase;
+use Corma\DBAL\Tests\TestUtil;
 use PHPUnit\Framework\Attributes\RequiresPhpExtension;
 
 #[RequiresPhpExtension('oci8')]

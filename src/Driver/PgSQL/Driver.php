@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\PgSQL;
+namespace Corma\DBAL\Driver\PgSQL;
 
-use Doctrine\DBAL\Driver\AbstractPostgreSQLDriver;
+use Corma\DBAL\Driver\AbstractPostgreSQLDriver;
 use ErrorException;
 use SensitiveParameter;
 

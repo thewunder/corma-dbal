@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Query\Expression;
+namespace Corma\DBAL\Tests\Query\Expression;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Query\Expression\CompositeExpression;
-use Doctrine\DBAL\Query\Expression\ExpressionBuilder;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Query\Expression\CompositeExpression;
+use Corma\DBAL\Query\Expression\ExpressionBuilder;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

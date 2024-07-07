@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Types;
+namespace Corma\DBAL\Types;
 
-use Doctrine\DBAL\ParameterType;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\ParameterType;
+use Corma\DBAL\Platforms\AbstractPlatform;
 
 /**
  * Type that maps an SQL INT to a PHP integer.

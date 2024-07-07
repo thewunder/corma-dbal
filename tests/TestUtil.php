@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests;
+namespace Corma\DBAL\Tests;
 
-use Doctrine\DBAL\Configuration;
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Driver\AbstractSQLiteDriver\Middleware\EnableForeignKeys;
-use Doctrine\DBAL\Driver\Mysqli;
-use Doctrine\DBAL\Driver\OCI8\Middleware\InitializeSession;
-use Doctrine\DBAL\DriverManager;
-use Doctrine\DBAL\Exception\DatabaseObjectNotFoundException;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Platforms\DB2Platform;
-use Doctrine\DBAL\Platforms\OraclePlatform;
-use Doctrine\DBAL\Platforms\SQLitePlatform;
-use Doctrine\DBAL\Schema\DefaultSchemaManagerFactory;
+use Corma\DBAL\Configuration;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Driver\AbstractSQLiteDriver\Middleware\EnableForeignKeys;
+use Corma\DBAL\Driver\Mysqli;
+use Corma\DBAL\Driver\OCI8\Middleware\InitializeSession;
+use Corma\DBAL\DriverManager;
+use Corma\DBAL\Exception\DatabaseObjectNotFoundException;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Platforms\DB2Platform;
+use Corma\DBAL\Platforms\OraclePlatform;
+use Corma\DBAL\Platforms\SQLitePlatform;
+use Corma\DBAL\Schema\DefaultSchemaManagerFactory;
 use InvalidArgumentException;
 use PHPUnit\Framework\Assert;
 

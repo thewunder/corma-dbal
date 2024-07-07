@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Schema;
+namespace Corma\DBAL\Schema;
 
-use Doctrine\DBAL\Connection;
+use Corma\DBAL\Connection;
 
 /**
  * Creates a schema manager for the given connection.

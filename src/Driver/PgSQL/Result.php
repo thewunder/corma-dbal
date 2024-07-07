@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\PgSQL;
+namespace Corma\DBAL\Driver\PgSQL;
 
-use Doctrine\DBAL\Driver\FetchUtils;
-use Doctrine\DBAL\Driver\PgSQL\Exception\UnexpectedValue;
-use Doctrine\DBAL\Driver\Result as ResultInterface;
+use Corma\DBAL\Driver\FetchUtils;
+use Corma\DBAL\Driver\PgSQL\Exception\UnexpectedValue;
+use Corma\DBAL\Driver\Result as ResultInterface;
 use PgSql\Result as PgSqlResult;
 
 use function array_keys;

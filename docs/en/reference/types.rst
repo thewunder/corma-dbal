@@ -835,8 +835,8 @@ Now we implement our ``Doctrine\DBAL\Types\Type`` instance:
     <?php
     namespace My\Project\Types;
 
-    use Doctrine\DBAL\Types\Type;
-    use Doctrine\DBAL\Platforms\AbstractPlatform;
+    use Corma\DBAL\Types\Type;
+    use Corma\DBAL\Platforms\AbstractPlatform;
 
     /**
      * My custom datatype.
@@ -896,8 +896,8 @@ need to pass parameters to your instance::
     <?php
     namespace My\Project\Types;
 
-    use Doctrine\DBAL\Types\Type;
-    use Doctrine\DBAL\Platforms\AbstractPlatform;
+    use Corma\DBAL\Types\Type;
+    use Corma\DBAL\Platforms\AbstractPlatform;
 
     final class StringReplacingType extends StringType
     {

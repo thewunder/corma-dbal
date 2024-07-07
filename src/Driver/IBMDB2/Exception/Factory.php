@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\IBMDB2\Exception;
+namespace Corma\DBAL\Driver\IBMDB2\Exception;
 
-use Doctrine\DBAL\Driver\AbstractException;
+use Corma\DBAL\Driver\AbstractException;
 
 use function preg_match;
 

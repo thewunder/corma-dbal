@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Schema;
+namespace Corma\DBAL\Schema;
 
 /**
  * Represents the change of a column.

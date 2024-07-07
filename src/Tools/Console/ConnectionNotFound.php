@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tools\Console;
+namespace Corma\DBAL\Tools\Console;
 
 use OutOfBoundsException;
 

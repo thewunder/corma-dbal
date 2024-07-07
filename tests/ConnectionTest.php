@@ -2,23 +2,23 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests;
+namespace Corma\DBAL\Tests;
 
-use Doctrine\DBAL\Cache\QueryCacheProfile;
-use Doctrine\DBAL\Configuration;
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\ConnectionException;
-use Doctrine\DBAL\Driver;
-use Doctrine\DBAL\Driver\Connection as DriverConnection;
-use Doctrine\DBAL\DriverManager;
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\ParameterType;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Result;
-use Doctrine\DBAL\Schema\AbstractSchemaManager;
-use Doctrine\DBAL\Schema\SchemaManagerFactory;
-use Doctrine\DBAL\Schema\SQLiteSchemaManager;
-use Doctrine\DBAL\ServerVersionProvider;
+use Corma\DBAL\Cache\QueryCacheProfile;
+use Corma\DBAL\Configuration;
+use Corma\DBAL\Connection;
+use Corma\DBAL\ConnectionException;
+use Corma\DBAL\Driver;
+use Corma\DBAL\Driver\Connection as DriverConnection;
+use Corma\DBAL\DriverManager;
+use Corma\DBAL\Exception;
+use Corma\DBAL\ParameterType;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Result;
+use Corma\DBAL\Schema\AbstractSchemaManager;
+use Corma\DBAL\Schema\SchemaManagerFactory;
+use Corma\DBAL\Schema\SQLiteSchemaManager;
+use Corma\DBAL\ServerVersionProvider;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\RequiresPhpExtension;
 use PHPUnit\Framework\MockObject\MockObject;

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Types;
+namespace Corma\DBAL\Tests\Types;
 
-use Doctrine\DBAL\Types\Exception\InvalidFormat;
-use Doctrine\DBAL\Types\Exception\InvalidType;
-use Doctrine\DBAL\Types\Exception\ValueNotConvertible;
+use Corma\DBAL\Types\Exception\InvalidFormat;
+use Corma\DBAL\Types\Exception\InvalidType;
+use Corma\DBAL\Types\Exception\ValueNotConvertible;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 use stdClass;

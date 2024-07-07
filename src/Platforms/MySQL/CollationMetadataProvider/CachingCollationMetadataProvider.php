@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Platforms\MySQL\CollationMetadataProvider;
+namespace Corma\DBAL\Platforms\MySQL\CollationMetadataProvider;
 
-use Doctrine\DBAL\Platforms\MySQL\CollationMetadataProvider;
+use Corma\DBAL\Platforms\MySQL\CollationMetadataProvider;
 
 use function array_key_exists;
 

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\SQL\Builder;
+namespace Corma\DBAL\SQL\Builder;
 
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Platforms\Exception\NotSupported;
-use Doctrine\DBAL\Query\ForUpdate\ConflictResolutionMode;
-use Doctrine\DBAL\Query\SelectQuery;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Platforms\Exception\NotSupported;
+use Corma\DBAL\Query\ForUpdate\ConflictResolutionMode;
+use Corma\DBAL\Query\SelectQuery;
 
 use function count;
 use function implode;

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Types;
+namespace Corma\DBAL\Types;
 
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Types\Exception\SerializationFailed;
-use Doctrine\DBAL\Types\Exception\ValueNotConvertible;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Types\Exception\SerializationFailed;
+use Corma\DBAL\Types\Exception\ValueNotConvertible;
 use JsonException;
 
 use function is_resource;

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Schema;
+namespace Corma\DBAL\Tests\Schema;
 
-use Doctrine\DBAL\Schema\ForeignKeyConstraint;
-use Doctrine\DBAL\Schema\Index;
+use Corma\DBAL\Schema\ForeignKeyConstraint;
+use Corma\DBAL\Schema\Index;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

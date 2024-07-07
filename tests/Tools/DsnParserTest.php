@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Tools;
+namespace Corma\DBAL\Tests\Tools;
 
-use Doctrine\DBAL\Driver;
-use Doctrine\DBAL\DriverManager;
-use Doctrine\DBAL\Tools\DsnParser;
+use Corma\DBAL\Driver;
+use Corma\DBAL\DriverManager;
+use Corma\DBAL\Tools\DsnParser;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

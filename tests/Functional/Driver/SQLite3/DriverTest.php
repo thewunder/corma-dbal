@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Driver\SQLite3;
+namespace Corma\DBAL\Tests\Functional\Driver\SQLite3;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Driver as DriverInterface;
-use Doctrine\DBAL\Driver\SQLite3\Driver;
-use Doctrine\DBAL\Exception\DriverException;
-use Doctrine\DBAL\Tests\Functional\Driver\AbstractDriverTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Driver as DriverInterface;
+use Corma\DBAL\Driver\SQLite3\Driver;
+use Corma\DBAL\Exception\DriverException;
+use Corma\DBAL\Tests\Functional\Driver\AbstractDriverTestCase;
+use Corma\DBAL\Tests\TestUtil;
 use PHPUnit\Framework\Attributes\RequiresPhpExtension;
 
 #[RequiresPhpExtension('sqlite3')]

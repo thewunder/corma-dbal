@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Platforms\SQLServer;
+namespace Corma\DBAL\Platforms\SQLServer;
 
-use Doctrine\DBAL\Platforms\SQLServerPlatform;
-use Doctrine\DBAL\Schema\Comparator as BaseComparator;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Schema\TableDiff;
+use Corma\DBAL\Platforms\SQLServerPlatform;
+use Corma\DBAL\Schema\Comparator as BaseComparator;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Schema\TableDiff;
 
 /**
  * Compares schemas in the context of SQL Server platform.

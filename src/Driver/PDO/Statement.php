@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\PDO;
+namespace Corma\DBAL\Driver\PDO;
 
-use Doctrine\DBAL\Driver\Exception as ExceptionInterface;
-use Doctrine\DBAL\Driver\Statement as StatementInterface;
-use Doctrine\DBAL\ParameterType;
+use Corma\DBAL\Driver\Exception as ExceptionInterface;
+use Corma\DBAL\Driver\Statement as StatementInterface;
+use Corma\DBAL\ParameterType;
 use PDO;
 use PDOException;
 use PDOStatement;

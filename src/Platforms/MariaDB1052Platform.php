@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Platforms;
+namespace Corma\DBAL\Platforms;
 
-use Doctrine\DBAL\Schema\Index;
-use Doctrine\DBAL\Schema\TableDiff;
+use Corma\DBAL\Schema\Index;
+use Corma\DBAL\Schema\TableDiff;
 
 /**
  * Provides the behavior, features and SQL dialect of the MariaDB 10.5 database platform.

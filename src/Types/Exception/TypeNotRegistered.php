@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Types\Exception;
+namespace Corma\DBAL\Types\Exception;
 
-use Doctrine\DBAL\Types\Type;
+use Corma\DBAL\Types\Type;
 use Exception;
 
 use function get_debug_type;

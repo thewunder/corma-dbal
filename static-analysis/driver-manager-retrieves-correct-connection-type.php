@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Doctrine\StaticAnalysis\DBAL;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\DriverManager;
+use Corma\DBAL\Connection;
+use Corma\DBAL\DriverManager;
 
 final class MyConnection extends Connection
 {

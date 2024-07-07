@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Schema\PostgreSQL;
+namespace Corma\DBAL\Tests\Functional\Schema\PostgreSQL;
 
-use Doctrine\DBAL\Platforms\PostgreSQLPlatform;
-use Doctrine\DBAL\Schema\AbstractSchemaManager;
-use Doctrine\DBAL\Schema\Column;
-use Doctrine\DBAL\Schema\Comparator;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Tests\Functional\Schema\ComparatorTestUtils;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Types\Type;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Platforms\PostgreSQLPlatform;
+use Corma\DBAL\Schema\AbstractSchemaManager;
+use Corma\DBAL\Schema\Column;
+use Corma\DBAL\Schema\Comparator;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Tests\Functional\Schema\ComparatorTestUtils;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Types\Type;
+use Corma\DBAL\Types\Types;
 
 final class ComparatorTest extends FunctionalTestCase
 {

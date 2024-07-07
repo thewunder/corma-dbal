@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\ArrayParameters;
+namespace Corma\DBAL\ArrayParameters;
 
 use Throwable;
 

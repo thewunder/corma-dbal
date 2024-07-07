@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Driver\Mysqli;
+namespace Corma\DBAL\Tests\Functional\Driver\Mysqli;
 
-use Doctrine\DBAL\Driver\Exception;
-use Doctrine\DBAL\Driver\Mysqli\Connection;
-use Doctrine\DBAL\Driver\Mysqli\Driver;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
+use Corma\DBAL\Driver\Exception;
+use Corma\DBAL\Driver\Mysqli\Connection;
+use Corma\DBAL\Driver\Mysqli\Driver;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Tests\TestUtil;
 
 use function array_merge;
 

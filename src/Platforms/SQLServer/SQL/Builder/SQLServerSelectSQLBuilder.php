@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Platforms\SQLServer\SQL\Builder;
+namespace Corma\DBAL\Platforms\SQLServer\SQL\Builder;
 
-use Doctrine\DBAL\Platforms\SQLServerPlatform;
-use Doctrine\DBAL\Query\ForUpdate\ConflictResolutionMode;
-use Doctrine\DBAL\Query\SelectQuery;
-use Doctrine\DBAL\SQL\Builder\SelectSQLBuilder;
+use Corma\DBAL\Platforms\SQLServerPlatform;
+use Corma\DBAL\Query\ForUpdate\ConflictResolutionMode;
+use Corma\DBAL\Query\SelectQuery;
+use Corma\DBAL\SQL\Builder\SelectSQLBuilder;
 
 use function count;
 use function implode;

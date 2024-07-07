@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Schema;
+namespace Corma\DBAL\Schema;
 
-use Doctrine\DBAL\Exception;
+use Corma\DBAL\Exception;
 
 /** @psalm-immutable */
 interface SchemaException extends Exception

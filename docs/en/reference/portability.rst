@@ -50,10 +50,10 @@ Using the following code block in your initialization will:
 
     <?php
 
-    use Doctrine\DBAL\ColumnCase;
-    use Doctrine\DBAL\Configuration;
-    use Doctrine\DBAL\Portability\Connection as PortableConnection;
-    use Doctrine\DBAL\Portability\Middleware as PortableMiddleware;
+    use Corma\DBAL\ColumnCase;
+    use Corma\DBAL\Configuration;
+    use Corma\DBAL\Portability\Connection as PortableConnection;
+    use Corma\DBAL\Portability\Middleware as PortableMiddleware;
 
     $configuration = new Configuration();
     $configuration->setMiddlewares([

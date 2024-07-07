@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Driver;
+namespace Corma\DBAL\Tests\Functional\Driver;
 
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Tests\TestUtil;
 
 class DBAL6024Test extends FunctionalTestCase
 {

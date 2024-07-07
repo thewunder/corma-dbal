@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\OCI8;
+namespace Corma\DBAL\Driver\OCI8;
 
-use Doctrine\DBAL\Driver\OCI8\Exception\Error;
-use Doctrine\DBAL\Driver\OCI8\Exception\UnknownParameterIndex;
-use Doctrine\DBAL\Driver\Statement as StatementInterface;
-use Doctrine\DBAL\ParameterType;
+use Corma\DBAL\Driver\OCI8\Exception\Error;
+use Corma\DBAL\Driver\OCI8\Exception\UnknownParameterIndex;
+use Corma\DBAL\Driver\Statement as StatementInterface;
+use Corma\DBAL\ParameterType;
 
 use function is_int;
 use function oci_bind_by_name;

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional;
+namespace Corma\DBAL\Tests\Functional;
 
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Result;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Result;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Tests\TestUtil;
 use PHPUnit\Framework\Attributes\DataProvider;
 
 class ResultTest extends FunctionalTestCase

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\PDO;
+namespace Corma\DBAL\Driver\PDO;
 
-use Doctrine\DBAL\Driver\Connection as ConnectionInterface;
-use Doctrine\DBAL\Driver\Exception\IdentityColumnsNotSupported;
-use Doctrine\DBAL\Driver\Exception\NoIdentityValue;
+use Corma\DBAL\Driver\Connection as ConnectionInterface;
+use Corma\DBAL\Driver\Exception\IdentityColumnsNotSupported;
+use Corma\DBAL\Driver\Exception\NoIdentityValue;
 use PDO;
 use PDOException;
 use PDOStatement;

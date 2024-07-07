@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Platforms;
+namespace Corma\DBAL\Tests\Platforms;
 
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Exception\InvalidColumnDeclaration;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Platforms\OraclePlatform;
-use Doctrine\DBAL\Schema\Column;
-use Doctrine\DBAL\Schema\ForeignKeyConstraint;
-use Doctrine\DBAL\Schema\Sequence;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\TransactionIsolationLevel;
-use Doctrine\DBAL\Types\Type;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Exception\InvalidColumnDeclaration;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Platforms\OraclePlatform;
+use Corma\DBAL\Schema\Column;
+use Corma\DBAL\Schema\ForeignKeyConstraint;
+use Corma\DBAL\Schema\Sequence;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\TransactionIsolationLevel;
+use Corma\DBAL\Types\Type;
+use Corma\DBAL\Types\Types;
 use PHPUnit\Framework\Attributes\DataProvider;
 
 use function sprintf;

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Types\Exception;
+namespace Corma\DBAL\Types\Exception;
 
-use Doctrine\DBAL\Exception;
+use Corma\DBAL\Exception;
 
 interface TypesException extends Exception
 {

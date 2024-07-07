@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Schema;
+namespace Corma\DBAL\Tests\Schema;
 
-use Doctrine\DBAL\Schema\AbstractAsset;
-use Doctrine\DBAL\Schema\Column;
-use Doctrine\DBAL\Schema\ColumnDiff;
-use Doctrine\DBAL\Schema\Comparator;
-use Doctrine\DBAL\Schema\ForeignKeyConstraint;
-use Doctrine\DBAL\Schema\Index;
-use Doctrine\DBAL\Schema\Schema;
-use Doctrine\DBAL\Schema\SchemaConfig;
-use Doctrine\DBAL\Schema\SchemaDiff;
-use Doctrine\DBAL\Schema\Sequence;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Schema\TableDiff;
-use Doctrine\DBAL\Types\Type;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Schema\AbstractAsset;
+use Corma\DBAL\Schema\Column;
+use Corma\DBAL\Schema\ColumnDiff;
+use Corma\DBAL\Schema\Comparator;
+use Corma\DBAL\Schema\ForeignKeyConstraint;
+use Corma\DBAL\Schema\Index;
+use Corma\DBAL\Schema\Schema;
+use Corma\DBAL\Schema\SchemaConfig;
+use Corma\DBAL\Schema\SchemaDiff;
+use Corma\DBAL\Schema\Sequence;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Schema\TableDiff;
+use Corma\DBAL\Types\Type;
+use Corma\DBAL\Types\Types;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

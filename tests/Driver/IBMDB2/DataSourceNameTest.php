@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Driver\IBMDB2;
+namespace Corma\DBAL\Tests\Driver\IBMDB2;
 
-use Doctrine\DBAL\Driver\IBMDB2\DataSourceName;
+use Corma\DBAL\Driver\IBMDB2\DataSourceName;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Platforms\SQLServer;
+namespace Corma\DBAL\Tests\Platforms\SQLServer;
 
-use Doctrine\DBAL\Platforms\SQLServer\Comparator;
-use Doctrine\DBAL\Platforms\SQLServerPlatform;
-use Doctrine\DBAL\Tests\Schema\AbstractComparatorTestCase;
+use Corma\DBAL\Platforms\SQLServer\Comparator;
+use Corma\DBAL\Platforms\SQLServerPlatform;
+use Corma\DBAL\Tests\Schema\AbstractComparatorTestCase;
 
 class ComparatorTest extends AbstractComparatorTestCase
 {

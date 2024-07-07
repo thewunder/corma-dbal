@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Schema;
+namespace Corma\DBAL\Tests\Schema;
 
-use Doctrine\DBAL\Configuration;
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Driver;
-use Doctrine\DBAL\DriverManager;
-use Doctrine\DBAL\Platforms\MySQLPlatform;
-use Doctrine\DBAL\Schema\Column;
-use Doctrine\DBAL\Schema\MySQLSchemaManager;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Types\Type;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Configuration;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Driver;
+use Corma\DBAL\DriverManager;
+use Corma\DBAL\Platforms\MySQLPlatform;
+use Corma\DBAL\Schema\Column;
+use Corma\DBAL\Schema\MySQLSchemaManager;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Types\Type;
+use Corma\DBAL\Types\Types;
 use PHPUnit\Framework\TestCase;
 
 /** @psalm-import-type Params from DriverManager */

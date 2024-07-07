@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Schema;
+namespace Corma\DBAL\Tests\Schema;
 
-use Doctrine\DBAL\Schema\Sequence;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Schema\Sequence;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Types\Types;
 use PHPUnit\Framework\TestCase;
 
 class SequenceTest extends TestCase

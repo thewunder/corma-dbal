@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Exception;
+namespace Corma\DBAL\Exception;
 
-use Doctrine\DBAL\Exception;
+use Corma\DBAL\Exception;
 
 use function sprintf;
 

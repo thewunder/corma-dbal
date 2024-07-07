@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Exception;
+namespace Corma\DBAL\Exception;
 
 /**
  * Exception for a syntax error in a statement detected in the driver.

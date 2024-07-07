@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Portability;
+namespace Corma\DBAL\Portability;
 
 use Closure;
 

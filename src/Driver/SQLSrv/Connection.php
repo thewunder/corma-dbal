@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\SQLSrv;
+namespace Corma\DBAL\Driver\SQLSrv;
 
-use Doctrine\DBAL\Driver\Connection as ConnectionInterface;
-use Doctrine\DBAL\Driver\Exception\NoIdentityValue;
-use Doctrine\DBAL\Driver\SQLSrv\Exception\Error;
+use Corma\DBAL\Driver\Connection as ConnectionInterface;
+use Corma\DBAL\Driver\Exception\NoIdentityValue;
+use Corma\DBAL\Driver\SQLSrv\Exception\Error;
 
 use function sqlsrv_begin_transaction;
 use function sqlsrv_commit;

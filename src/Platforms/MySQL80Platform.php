@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Platforms;
+namespace Corma\DBAL\Platforms;
 
-use Doctrine\DBAL\Platforms\Keywords\KeywordList;
-use Doctrine\DBAL\Platforms\Keywords\MySQL80Keywords;
-use Doctrine\DBAL\SQL\Builder\SelectSQLBuilder;
+use Corma\DBAL\Platforms\Keywords\KeywordList;
+use Corma\DBAL\Platforms\Keywords\MySQL80Keywords;
+use Corma\DBAL\SQL\Builder\SelectSQLBuilder;
 
 /**
  * Provides the behavior, features and SQL dialect of the MySQL 8.0 database platform.

@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Driver;
+namespace Corma\DBAL\Tests\Driver;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Driver\API\ExceptionConverter as ExceptionConverterInterface;
-use Doctrine\DBAL\Driver\API\IBMDB2\ExceptionConverter;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Platforms\DB2Platform;
-use Doctrine\DBAL\Schema\AbstractSchemaManager;
-use Doctrine\DBAL\Schema\DB2SchemaManager;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Driver\API\ExceptionConverter as ExceptionConverterInterface;
+use Corma\DBAL\Driver\API\IBMDB2\ExceptionConverter;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Platforms\DB2Platform;
+use Corma\DBAL\Schema\AbstractSchemaManager;
+use Corma\DBAL\Schema\DB2SchemaManager;
 
 /** @extends AbstractDriverTestCase<DB2Platform> */
 abstract class AbstractDB2DriverTestCase extends AbstractDriverTestCase

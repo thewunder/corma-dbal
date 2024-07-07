@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\SQL;
+namespace Corma\DBAL\Tests\Functional\SQL;
 
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Tests\TestUtil;
 
 class ParserTest extends FunctionalTestCase
 {

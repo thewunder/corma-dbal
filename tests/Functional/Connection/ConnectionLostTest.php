@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Connection;
+namespace Corma\DBAL\Tests\Functional\Connection;
 
-use Doctrine\DBAL\Exception\ConnectionLost;
-use Doctrine\DBAL\Platforms\AbstractMySQLPlatform;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Exception\ConnectionLost;
+use Corma\DBAL\Platforms\AbstractMySQLPlatform;
+use Corma\DBAL\Tests\FunctionalTestCase;
 
 use function sleep;
 

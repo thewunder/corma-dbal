@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL;
+namespace Corma\DBAL;
 
-use Doctrine\DBAL\Driver\Middleware;
-use Doctrine\DBAL\Exception\InvalidArgumentException;
-use Doctrine\DBAL\Schema\SchemaManagerFactory;
+use Corma\DBAL\Driver\Middleware;
+use Corma\DBAL\Exception\InvalidArgumentException;
+use Corma\DBAL\Schema\SchemaManagerFactory;
 use Psr\Cache\CacheItemPoolInterface;
 
 /**

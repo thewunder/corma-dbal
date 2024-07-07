@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Schema;
+namespace Corma\DBAL\Tests\Functional\Schema;
 
-use Doctrine\DBAL\Platforms\AbstractMySQLPlatform;
-use Doctrine\DBAL\Platforms\MariaDBPlatform;
-use Doctrine\DBAL\Schema\AbstractSchemaManager;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Platforms\AbstractMySQLPlatform;
+use Corma\DBAL\Platforms\MariaDBPlatform;
+use Corma\DBAL\Schema\AbstractSchemaManager;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Types\Types;
 use PHPUnit\Framework\Attributes\DataProvider;
 
 class ComparatorTest extends FunctionalTestCase

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver;
+namespace Corma\DBAL\Driver;
 
-use Doctrine\DBAL\Driver;
-use Doctrine\DBAL\Driver\API\ExceptionConverter as ExceptionConverterInterface;
-use Doctrine\DBAL\Driver\API\PostgreSQL\ExceptionConverter;
-use Doctrine\DBAL\Platforms\PostgreSQLPlatform;
-use Doctrine\DBAL\ServerVersionProvider;
+use Corma\DBAL\Driver;
+use Corma\DBAL\Driver\API\ExceptionConverter as ExceptionConverterInterface;
+use Corma\DBAL\Driver\API\PostgreSQL\ExceptionConverter;
+use Corma\DBAL\Platforms\PostgreSQLPlatform;
+use Corma\DBAL\ServerVersionProvider;
 
 /**
  * Abstract base implementation of the {@see Driver} interface for PostgreSQL based drivers.

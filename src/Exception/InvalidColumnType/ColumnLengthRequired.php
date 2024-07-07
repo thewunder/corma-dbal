@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Exception\InvalidColumnType;
+namespace Corma\DBAL\Exception\InvalidColumnType;
 
-use Doctrine\DBAL\Exception\InvalidColumnType;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Exception\InvalidColumnType;
+use Corma\DBAL\Platforms\AbstractPlatform;
 
 use function get_debug_type;
 use function sprintf;

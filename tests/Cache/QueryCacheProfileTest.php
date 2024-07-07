@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Cache;
+namespace Corma\DBAL\Tests\Cache;
 
-use Doctrine\DBAL\Cache\QueryCacheProfile;
-use Doctrine\DBAL\ParameterType;
+use Corma\DBAL\Cache\QueryCacheProfile;
+use Corma\DBAL\ParameterType;
 use PHPUnit\Framework\TestCase;
 
 use function parse_str;

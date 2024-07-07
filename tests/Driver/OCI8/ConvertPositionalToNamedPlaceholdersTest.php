@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Driver\OCI8;
+namespace Corma\DBAL\Tests\Driver\OCI8;
 
-use Doctrine\DBAL\Driver\OCI8\ConvertPositionalToNamedPlaceholders;
-use Doctrine\DBAL\SQL\Parser;
+use Corma\DBAL\Driver\OCI8\ConvertPositionalToNamedPlaceholders;
+use Corma\DBAL\SQL\Parser;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

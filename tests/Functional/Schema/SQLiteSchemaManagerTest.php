@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Schema;
+namespace Corma\DBAL\Tests\Functional\Schema;
 
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Platforms\SQLitePlatform;
-use Doctrine\DBAL\Schema\Column;
-use Doctrine\DBAL\Schema\ForeignKeyConstraint;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Schema\TableDiff;
-use Doctrine\DBAL\Types\BlobType;
-use Doctrine\DBAL\Types\Type;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Platforms\SQLitePlatform;
+use Corma\DBAL\Schema\Column;
+use Corma\DBAL\Schema\ForeignKeyConstraint;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Schema\TableDiff;
+use Corma\DBAL\Types\BlobType;
+use Corma\DBAL\Types\Type;
+use Corma\DBAL\Types\Types;
 
 use function array_keys;
 use function array_shift;

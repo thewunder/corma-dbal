@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\PDO\SQLSrv;
+namespace Corma\DBAL\Driver\PDO\SQLSrv;
 
-use Doctrine\DBAL\Driver\Middleware\AbstractConnectionMiddleware;
-use Doctrine\DBAL\Driver\PDO\Connection as PDOConnection;
+use Corma\DBAL\Driver\Middleware\AbstractConnectionMiddleware;
+use Corma\DBAL\Driver\PDO\Connection as PDOConnection;
 use PDO;
 
 final class Connection extends AbstractConnectionMiddleware

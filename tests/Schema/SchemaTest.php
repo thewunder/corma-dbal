@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Schema;
+namespace Corma\DBAL\Tests\Schema;
 
-use Doctrine\DBAL\Schema\Schema;
-use Doctrine\DBAL\Schema\SchemaConfig;
-use Doctrine\DBAL\Schema\SchemaException;
-use Doctrine\DBAL\Schema\Sequence;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Schema\Schema;
+use Corma\DBAL\Schema\SchemaConfig;
+use Corma\DBAL\Schema\SchemaException;
+use Corma\DBAL\Schema\Sequence;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Types\Types;
 use PHPUnit\Framework\TestCase;
 
 use function array_shift;

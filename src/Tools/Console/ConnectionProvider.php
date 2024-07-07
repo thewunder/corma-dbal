@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tools\Console;
+namespace Corma\DBAL\Tools\Console;
 
-use Doctrine\DBAL\Connection;
+use Corma\DBAL\Connection;
 
 interface ConnectionProvider
 {

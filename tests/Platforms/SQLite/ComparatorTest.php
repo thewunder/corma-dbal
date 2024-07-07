@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Platforms\SQLite;
+namespace Corma\DBAL\Tests\Platforms\SQLite;
 
-use Doctrine\DBAL\Platforms\SQLite\Comparator;
-use Doctrine\DBAL\Platforms\SQLitePlatform;
-use Doctrine\DBAL\Tests\Schema\AbstractComparatorTestCase;
+use Corma\DBAL\Platforms\SQLite\Comparator;
+use Corma\DBAL\Platforms\SQLitePlatform;
+use Corma\DBAL\Tests\Schema\AbstractComparatorTestCase;
 
 class ComparatorTest extends AbstractComparatorTestCase
 {

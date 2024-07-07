@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Driver\AbstractOracleDriver;
+namespace Corma\DBAL\Tests\Driver\AbstractOracleDriver;
 
-use Doctrine\DBAL\Driver\AbstractOracleDriver\EasyConnectString;
+use Corma\DBAL\Driver\AbstractOracleDriver\EasyConnectString;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

@@ -2,24 +2,24 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Platforms;
+namespace Corma\DBAL\Tests\Platforms;
 
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Exception\InvalidColumnDeclaration;
-use Doctrine\DBAL\LockMode;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Platforms\SQLServer;
-use Doctrine\DBAL\Platforms\SQLServerPlatform;
-use Doctrine\DBAL\Schema\Column;
-use Doctrine\DBAL\Schema\ColumnDiff;
-use Doctrine\DBAL\Schema\Comparator;
-use Doctrine\DBAL\Schema\Index;
-use Doctrine\DBAL\Schema\Sequence;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Schema\TableDiff;
-use Doctrine\DBAL\TransactionIsolationLevel;
-use Doctrine\DBAL\Types\Type;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Exception\InvalidColumnDeclaration;
+use Corma\DBAL\LockMode;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Platforms\SQLServer;
+use Corma\DBAL\Platforms\SQLServerPlatform;
+use Corma\DBAL\Schema\Column;
+use Corma\DBAL\Schema\ColumnDiff;
+use Corma\DBAL\Schema\Comparator;
+use Corma\DBAL\Schema\Index;
+use Corma\DBAL\Schema\Sequence;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Schema\TableDiff;
+use Corma\DBAL\TransactionIsolationLevel;
+use Corma\DBAL\Types\Type;
+use Corma\DBAL\Types\Types;
 use PHPUnit\Framework\Attributes\DataProvider;
 
 /** @extends AbstractPlatformTestCase<SQLServerPlatform> */

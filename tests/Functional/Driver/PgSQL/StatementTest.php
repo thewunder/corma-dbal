@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Driver\PgSQL;
+namespace Corma\DBAL\Tests\Functional\Driver\PgSQL;
 
-use Doctrine\DBAL\Driver\PgSQL\Statement;
-use Doctrine\DBAL\Exception\DriverException;
-use Doctrine\DBAL\Statement as WrapperStatement;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
+use Corma\DBAL\Driver\PgSQL\Statement;
+use Corma\DBAL\Exception\DriverException;
+use Corma\DBAL\Statement as WrapperStatement;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Tests\TestUtil;
 use ReflectionProperty;
 
 use function sprintf;

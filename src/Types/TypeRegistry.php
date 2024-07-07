@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Types;
+namespace Corma\DBAL\Types;
 
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Types\Exception\TypeAlreadyRegistered;
-use Doctrine\DBAL\Types\Exception\TypeNotFound;
-use Doctrine\DBAL\Types\Exception\TypeNotRegistered;
-use Doctrine\DBAL\Types\Exception\TypesAlreadyExists;
-use Doctrine\DBAL\Types\Exception\UnknownColumnType;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Types\Exception\TypeAlreadyRegistered;
+use Corma\DBAL\Types\Exception\TypeNotFound;
+use Corma\DBAL\Types\Exception\TypeNotRegistered;
+use Corma\DBAL\Types\Exception\TypesAlreadyExists;
+use Corma\DBAL\Types\Exception\UnknownColumnType;
 
 use function spl_object_id;
 

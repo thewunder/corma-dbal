@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Schema;
+namespace Corma\DBAL\Schema;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Exception\DatabaseRequired;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Platforms\Exception\NotSupported;
-use Doctrine\DBAL\Result;
-use Doctrine\DBAL\Schema\Exception\TableDoesNotExist;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Exception\DatabaseRequired;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Platforms\Exception\NotSupported;
+use Corma\DBAL\Result;
+use Corma\DBAL\Schema\Exception\TableDoesNotExist;
 
 use function array_filter;
 use function array_intersect;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\DataAccess;
+namespace Corma\DBAL\Tests\Functional\DataAccess;
 
 class FetchClass
 {

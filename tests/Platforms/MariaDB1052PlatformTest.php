@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Platforms;
+namespace Corma\DBAL\Tests\Platforms;
 
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Platforms\MariaDB1052Platform;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Platforms\MariaDB1052Platform;
 
 class MariaDB1052PlatformTest extends MariaDBPlatformTest
 {

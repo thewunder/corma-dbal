@@ -243,12 +243,12 @@ by the schema manager or the comparator. If you want your own schema manager to 
 .. code-block:: php
 
     <?php
-    use Doctrine\DBAL\Configuration;
-    use Doctrine\DBAL\DriverManager;
-    use Doctrine\DBAL\Platforms\AbstractMySQLPlatform;
-    use Doctrine\DBAL\Schema\DefaultSchemaManagerFactory;
-    use Doctrine\DBAL\Schema\MySQLSchemaManager;
-    use Doctrine\DBAL\Schema\SchemaManagerFactory;
+    use Corma\DBAL\Configuration;
+    use Corma\DBAL\DriverManager;
+    use Corma\DBAL\Platforms\AbstractMySQLPlatform;
+    use Corma\DBAL\Schema\DefaultSchemaManagerFactory;
+    use Corma\DBAL\Schema\MySQLSchemaManager;
+    use Corma\DBAL\Schema\SchemaManagerFactory;
 
     class MyCustomMySQLSchemaManager extends MySQLSchemaManager
     {

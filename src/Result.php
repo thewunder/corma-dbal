@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL;
+namespace Corma\DBAL;
 
-use Doctrine\DBAL\Driver\Exception as DriverException;
-use Doctrine\DBAL\Driver\Result as DriverResult;
-use Doctrine\DBAL\Exception\NoKeyValue;
+use Corma\DBAL\Driver\Exception as DriverException;
+use Corma\DBAL\Driver\Result as DriverResult;
+use Corma\DBAL\Exception\NoKeyValue;
 use Traversable;
 
 use function array_shift;

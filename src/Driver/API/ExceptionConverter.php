@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\API;
+namespace Corma\DBAL\Driver\API;
 
-use Doctrine\DBAL\Driver\Exception;
-use Doctrine\DBAL\Exception\DriverException;
-use Doctrine\DBAL\Query;
+use Corma\DBAL\Driver\Exception;
+use Corma\DBAL\Exception\DriverException;
+use Corma\DBAL\Query;
 
 interface ExceptionConverter
 {

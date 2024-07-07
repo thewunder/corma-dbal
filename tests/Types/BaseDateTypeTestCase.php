@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Types;
+namespace Corma\DBAL\Tests\Types;
 
 use DateTime;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Types\ConversionException;
-use Doctrine\DBAL\Types\Type;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Types\ConversionException;
+use Corma\DBAL\Types\Type;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;

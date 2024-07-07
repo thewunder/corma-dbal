@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Platforms;
+namespace Corma\DBAL\Platforms;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Platforms\Keywords\KeywordList;
-use Doctrine\DBAL\Platforms\Keywords\PostgreSQLKeywords;
-use Doctrine\DBAL\Schema\ForeignKeyConstraint;
-use Doctrine\DBAL\Schema\Identifier;
-use Doctrine\DBAL\Schema\Index;
-use Doctrine\DBAL\Schema\PostgreSQLSchemaManager;
-use Doctrine\DBAL\Schema\Sequence;
-use Doctrine\DBAL\Schema\TableDiff;
-use Doctrine\DBAL\TransactionIsolationLevel;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Platforms\Keywords\KeywordList;
+use Corma\DBAL\Platforms\Keywords\PostgreSQLKeywords;
+use Corma\DBAL\Schema\ForeignKeyConstraint;
+use Corma\DBAL\Schema\Identifier;
+use Corma\DBAL\Schema\Index;
+use Corma\DBAL\Schema\PostgreSQLSchemaManager;
+use Corma\DBAL\Schema\Sequence;
+use Corma\DBAL\Schema\TableDiff;
+use Corma\DBAL\TransactionIsolationLevel;
+use Corma\DBAL\Types\Types;
 use UnexpectedValueException;
 
 use function array_merge;

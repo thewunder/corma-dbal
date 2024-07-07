@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Portability;
+namespace Corma\DBAL\Portability;
 
-use Doctrine\DBAL\ColumnCase;
-use Doctrine\DBAL\Driver as DriverInterface;
-use Doctrine\DBAL\Driver\Middleware as MiddlewareInterface;
+use Corma\DBAL\ColumnCase;
+use Corma\DBAL\Driver as DriverInterface;
+use Corma\DBAL\Driver\Middleware as MiddlewareInterface;
 
 final class Middleware implements MiddlewareInterface
 {

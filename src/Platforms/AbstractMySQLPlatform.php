@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Platforms;
+namespace Corma\DBAL\Platforms;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Platforms\Keywords\KeywordList;
-use Doctrine\DBAL\Platforms\Keywords\MySQLKeywords;
-use Doctrine\DBAL\Schema\AbstractAsset;
-use Doctrine\DBAL\Schema\ForeignKeyConstraint;
-use Doctrine\DBAL\Schema\Identifier;
-use Doctrine\DBAL\Schema\Index;
-use Doctrine\DBAL\Schema\MySQLSchemaManager;
-use Doctrine\DBAL\Schema\TableDiff;
-use Doctrine\DBAL\SQL\Builder\DefaultSelectSQLBuilder;
-use Doctrine\DBAL\SQL\Builder\SelectSQLBuilder;
-use Doctrine\DBAL\TransactionIsolationLevel;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Platforms\Keywords\KeywordList;
+use Corma\DBAL\Platforms\Keywords\MySQLKeywords;
+use Corma\DBAL\Schema\AbstractAsset;
+use Corma\DBAL\Schema\ForeignKeyConstraint;
+use Corma\DBAL\Schema\Identifier;
+use Corma\DBAL\Schema\Index;
+use Corma\DBAL\Schema\MySQLSchemaManager;
+use Corma\DBAL\Schema\TableDiff;
+use Corma\DBAL\SQL\Builder\DefaultSelectSQLBuilder;
+use Corma\DBAL\SQL\Builder\SelectSQLBuilder;
+use Corma\DBAL\TransactionIsolationLevel;
+use Corma\DBAL\Types\Types;
 
 use function array_merge;
 use function array_unique;

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Platforms;
+namespace Corma\DBAL\Platforms;
 
-use Doctrine\DBAL\Platforms\Keywords\KeywordList;
-use Doctrine\DBAL\Platforms\Keywords\MySQLKeywords;
-use Doctrine\DBAL\Schema\Index;
-use Doctrine\DBAL\Types\BlobType;
-use Doctrine\DBAL\Types\TextType;
+use Corma\DBAL\Platforms\Keywords\KeywordList;
+use Corma\DBAL\Platforms\Keywords\MySQLKeywords;
+use Corma\DBAL\Schema\Index;
+use Corma\DBAL\Types\BlobType;
+use Corma\DBAL\Types\TextType;
 
 /**
  * Provides the behavior, features and SQL dialect of the Oracle MySQL database platform

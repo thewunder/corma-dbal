@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Schema;
+namespace Corma\DBAL\Tests\Schema;
 
-use Doctrine\DBAL\Platforms\MySQLPlatform;
-use Doctrine\DBAL\Platforms\SQLitePlatform;
-use Doctrine\DBAL\Platforms\SQLServerPlatform;
-use Doctrine\DBAL\Schema\Column;
-use Doctrine\DBAL\Schema\Exception\UnknownColumnOption;
-use Doctrine\DBAL\Types\Type;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Platforms\MySQLPlatform;
+use Corma\DBAL\Platforms\SQLitePlatform;
+use Corma\DBAL\Platforms\SQLServerPlatform;
+use Corma\DBAL\Schema\Column;
+use Corma\DBAL\Schema\Exception\UnknownColumnOption;
+use Corma\DBAL\Types\Type;
+use Corma\DBAL\Types\Types;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

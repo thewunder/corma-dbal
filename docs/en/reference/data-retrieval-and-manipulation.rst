@@ -21,7 +21,7 @@ connection:
 .. code-block:: php
 
     <?php
-    use Doctrine\DBAL\DriverManager;
+    use Corma\DBAL\DriverManager;
 
     $conn = DriverManager::getConnection($params, $config);
 

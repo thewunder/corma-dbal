@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\SQLite3;
+namespace Corma\DBAL\Driver\SQLite3;
 
-use Doctrine\DBAL\Driver\AbstractSQLiteDriver;
+use Corma\DBAL\Driver\AbstractSQLiteDriver;
 use SensitiveParameter;
 use SQLite3;
 

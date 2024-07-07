@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\Mysqli\Initializer;
+namespace Corma\DBAL\Driver\Mysqli\Initializer;
 
-use Doctrine\DBAL\Driver\Mysqli\Exception\InvalidCharset;
-use Doctrine\DBAL\Driver\Mysqli\Initializer;
+use Corma\DBAL\Driver\Mysqli\Exception\InvalidCharset;
+use Corma\DBAL\Driver\Mysqli\Initializer;
 use mysqli;
 use mysqli_sql_exception;
 

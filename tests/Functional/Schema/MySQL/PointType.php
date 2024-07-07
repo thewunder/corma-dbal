@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Schema\MySQL;
+namespace Corma\DBAL\Tests\Functional\Schema\MySQL;
 
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Types\Type;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Types\Type;
 
 class PointType extends Type
 {

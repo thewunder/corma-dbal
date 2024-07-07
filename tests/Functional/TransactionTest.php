@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional;
+namespace Corma\DBAL\Tests\Functional;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Driver\PDO;
-use Doctrine\DBAL\Exception\ConnectionLost;
-use Doctrine\DBAL\Platforms\AbstractMySQLPlatform;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Driver\PDO;
+use Corma\DBAL\Exception\ConnectionLost;
+use Corma\DBAL\Platforms\AbstractMySQLPlatform;
+use Corma\DBAL\Tests\FunctionalTestCase;
 
 use function func_get_args;
 use function restore_error_handler;

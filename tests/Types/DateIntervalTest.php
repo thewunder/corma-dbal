@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Types;
+namespace Corma\DBAL\Tests\Types;
 
 use DateInterval;
 use DateTime;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Types\ConversionException;
-use Doctrine\DBAL\Types\DateIntervalType;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Types\ConversionException;
+use Corma\DBAL\Types\DateIntervalType;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;

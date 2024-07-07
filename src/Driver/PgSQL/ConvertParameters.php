@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\PgSQL;
+namespace Corma\DBAL\Driver\PgSQL;
 
-use Doctrine\DBAL\SQL\Parser\Visitor;
+use Corma\DBAL\SQL\Parser\Visitor;
 
 use function count;
 use function implode;

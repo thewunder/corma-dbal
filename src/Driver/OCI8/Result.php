@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\OCI8;
+namespace Corma\DBAL\Driver\OCI8;
 
-use Doctrine\DBAL\Driver\Exception;
-use Doctrine\DBAL\Driver\FetchUtils;
-use Doctrine\DBAL\Driver\OCI8\Exception\Error;
-use Doctrine\DBAL\Driver\Result as ResultInterface;
+use Corma\DBAL\Driver\Exception;
+use Corma\DBAL\Driver\FetchUtils;
+use Corma\DBAL\Driver\OCI8\Exception\Error;
+use Corma\DBAL\Driver\Result as ResultInterface;
 
 use function oci_cancel;
 use function oci_error;

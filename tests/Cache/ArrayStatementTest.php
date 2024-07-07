@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Cache;
+namespace Corma\DBAL\Tests\Cache;
 
-use Doctrine\DBAL\Cache\ArrayResult;
+use Corma\DBAL\Cache\ArrayResult;
 use PHPUnit\Framework\TestCase;
 
 use function array_values;

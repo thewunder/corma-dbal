@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Schema\Types;
+namespace Corma\DBAL\Tests\Functional\Schema\Types;
 
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Types\Exception\InvalidFormat;
-use Doctrine\DBAL\Types\Exception\InvalidType;
-use Doctrine\DBAL\Types\Type;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Types\Exception\InvalidFormat;
+use Corma\DBAL\Types\Exception\InvalidType;
+use Corma\DBAL\Types\Type;
 use InvalidArgumentException;
 
 use function is_string;

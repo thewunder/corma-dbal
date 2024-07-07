@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests;
+namespace Corma\DBAL\Tests;
 
-use Doctrine\DBAL\Configuration;
+use Corma\DBAL\Configuration;
 use PHPUnit\Framework\TestCase;
 
 /**

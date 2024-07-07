@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tools\Console\Command;
+namespace Corma\DBAL\Tools\Console\Command;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Tools\Console\ConnectionProvider;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Tools\Console\ConnectionProvider;
 use RuntimeException;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;

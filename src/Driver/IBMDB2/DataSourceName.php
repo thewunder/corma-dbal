@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\IBMDB2;
+namespace Corma\DBAL\Driver\IBMDB2;
 
 use SensitiveParameter;
 

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Platforms;
+namespace Corma\DBAL\Platforms;
 
-use Doctrine\DBAL\SQL\Builder\SelectSQLBuilder;
+use Corma\DBAL\SQL\Builder\SelectSQLBuilder;
 
 /**
  * Provides the behavior, features and SQL dialect of the MariaDB 10.6 database platform.

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Types;
+namespace Corma\DBAL\Tests\Types;
 
 use DateTime;
-use Doctrine\DBAL\Types\ConversionException;
-use Doctrine\DBAL\Types\DateTimeType;
+use Corma\DBAL\Types\ConversionException;
+use Corma\DBAL\Types\DateTimeType;
 
 class DateTimeTest extends BaseDateTypeTestCase
 {

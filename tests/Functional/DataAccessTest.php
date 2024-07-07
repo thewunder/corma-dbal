@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional;
+namespace Corma\DBAL\Tests\Functional;
 
 use DateTime;
-use Doctrine\DBAL\ArrayParameterType;
-use Doctrine\DBAL\ParameterType;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Platforms\SQLitePlatform;
-use Doctrine\DBAL\Platforms\TrimMode;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Statement;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\ArrayParameterType;
+use Corma\DBAL\ParameterType;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Platforms\SQLitePlatform;
+use Corma\DBAL\Platforms\TrimMode;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Statement;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Types\Types;
 use PHPUnit\Framework\Attributes\DataProvider;
 
 use function array_change_key_case;

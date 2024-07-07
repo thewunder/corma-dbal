@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Connections;
+namespace Corma\DBAL\Connections;
 
-use Doctrine\DBAL\Configuration;
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Driver;
-use Doctrine\DBAL\Driver\Connection as DriverConnection;
-use Doctrine\DBAL\Driver\Exception as DriverException;
-use Doctrine\DBAL\DriverManager;
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Statement;
+use Corma\DBAL\Configuration;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Driver;
+use Corma\DBAL\Driver\Connection as DriverConnection;
+use Corma\DBAL\Driver\Exception as DriverException;
+use Corma\DBAL\DriverManager;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Statement;
 use InvalidArgumentException;
 use SensitiveParameter;
 

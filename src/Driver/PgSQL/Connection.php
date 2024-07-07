@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\PgSQL;
+namespace Corma\DBAL\Driver\PgSQL;
 
-use Doctrine\DBAL\Driver\Connection as ConnectionInterface;
-use Doctrine\DBAL\Driver\Exception\NoIdentityValue;
-use Doctrine\DBAL\SQL\Parser;
+use Corma\DBAL\Driver\Connection as ConnectionInterface;
+use Corma\DBAL\Driver\Exception\NoIdentityValue;
+use Corma\DBAL\SQL\Parser;
 use PgSql\Connection as PgSqlConnection;
 
 use function assert;

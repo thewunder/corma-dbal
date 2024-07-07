@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\API\IBMDB2;
+namespace Corma\DBAL\Driver\API\IBMDB2;
 
-use Doctrine\DBAL\Driver\API\ExceptionConverter as ExceptionConverterInterface;
-use Doctrine\DBAL\Driver\Exception;
-use Doctrine\DBAL\Exception\ConnectionException;
-use Doctrine\DBAL\Exception\DriverException;
-use Doctrine\DBAL\Exception\ForeignKeyConstraintViolationException;
-use Doctrine\DBAL\Exception\InvalidFieldNameException;
-use Doctrine\DBAL\Exception\NonUniqueFieldNameException;
-use Doctrine\DBAL\Exception\NotNullConstraintViolationException;
-use Doctrine\DBAL\Exception\SyntaxErrorException;
-use Doctrine\DBAL\Exception\TableExistsException;
-use Doctrine\DBAL\Exception\TableNotFoundException;
-use Doctrine\DBAL\Exception\UniqueConstraintViolationException;
-use Doctrine\DBAL\Query;
+use Corma\DBAL\Driver\API\ExceptionConverter as ExceptionConverterInterface;
+use Corma\DBAL\Driver\Exception;
+use Corma\DBAL\Exception\ConnectionException;
+use Corma\DBAL\Exception\DriverException;
+use Corma\DBAL\Exception\ForeignKeyConstraintViolationException;
+use Corma\DBAL\Exception\InvalidFieldNameException;
+use Corma\DBAL\Exception\NonUniqueFieldNameException;
+use Corma\DBAL\Exception\NotNullConstraintViolationException;
+use Corma\DBAL\Exception\SyntaxErrorException;
+use Corma\DBAL\Exception\TableExistsException;
+use Corma\DBAL\Exception\TableNotFoundException;
+use Corma\DBAL\Exception\UniqueConstraintViolationException;
+use Corma\DBAL\Query;
 
 /**
  * @internal

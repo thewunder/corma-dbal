@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional;
+namespace Corma\DBAL\Tests\Functional;
 
-use Doctrine\DBAL\ArrayParameterType;
-use Doctrine\DBAL\ParameterType;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\ArrayParameterType;
+use Corma\DBAL\ParameterType;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Tests\TestUtil;
+use Corma\DBAL\Types\Types;
 
 use function array_change_key_case;
 use function array_keys;

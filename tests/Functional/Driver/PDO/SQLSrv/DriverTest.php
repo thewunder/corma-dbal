@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Driver\PDO\SQLSrv;
+namespace Corma\DBAL\Tests\Functional\Driver\PDO\SQLSrv;
 
-use Doctrine\DBAL\Driver as DriverInterface;
-use Doctrine\DBAL\Driver\PDO\SQLSrv\Connection;
-use Doctrine\DBAL\Driver\PDO\SQLSrv\Driver;
-use Doctrine\DBAL\Tests\Functional\Driver\AbstractDriverTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
+use Corma\DBAL\Driver as DriverInterface;
+use Corma\DBAL\Driver\PDO\SQLSrv\Connection;
+use Corma\DBAL\Driver\PDO\SQLSrv\Driver;
+use Corma\DBAL\Tests\Functional\Driver\AbstractDriverTestCase;
+use Corma\DBAL\Tests\TestUtil;
 use PDO;
 use PHPUnit\Framework\Attributes\RequiresPhpExtension;
 

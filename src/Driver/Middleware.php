@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver;
+namespace Corma\DBAL\Driver;
 
-use Doctrine\DBAL\Driver;
+use Corma\DBAL\Driver;
 
 interface Middleware
 {

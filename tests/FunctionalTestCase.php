@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests;
+namespace Corma\DBAL\Tests;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Exception\DatabaseObjectNotFoundException;
-use Doctrine\DBAL\Schema\Table;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Exception\DatabaseObjectNotFoundException;
+use Corma\DBAL\Schema\Table;
 use PHPUnit\Framework\Attributes\After;
 use PHPUnit\Framework\Attributes\Before;
 use PHPUnit\Framework\TestCase;

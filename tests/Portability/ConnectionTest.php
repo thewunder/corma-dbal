@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Portability;
+namespace Corma\DBAL\Tests\Portability;
 
-use Doctrine\DBAL\Driver\Connection as ConnectionInterface;
-use Doctrine\DBAL\Portability\Connection;
-use Doctrine\DBAL\Portability\Converter;
+use Corma\DBAL\Driver\Connection as ConnectionInterface;
+use Corma\DBAL\Portability\Connection;
+use Corma\DBAL\Portability\Converter;
 use PHPUnit\Framework\TestCase;
 
 class ConnectionTest extends TestCase

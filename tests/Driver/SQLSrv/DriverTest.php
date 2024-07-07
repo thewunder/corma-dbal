@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Driver\SQLSrv;
+namespace Corma\DBAL\Tests\Driver\SQLSrv;
 
-use Doctrine\DBAL\Driver as DriverInterface;
-use Doctrine\DBAL\Driver\SQLSrv\Driver;
-use Doctrine\DBAL\Tests\Driver\AbstractSQLServerDriverTestCase;
+use Corma\DBAL\Driver as DriverInterface;
+use Corma\DBAL\Driver\SQLSrv\Driver;
+use Corma\DBAL\Tests\Driver\AbstractSQLServerDriverTestCase;
 
 class DriverTest extends AbstractSQLServerDriverTestCase
 {

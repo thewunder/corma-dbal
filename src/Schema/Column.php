@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Schema;
+namespace Corma\DBAL\Schema;
 
-use Doctrine\DBAL\Schema\Exception\UnknownColumnOption;
-use Doctrine\DBAL\Types\Type;
+use Corma\DBAL\Schema\Exception\UnknownColumnOption;
+use Corma\DBAL\Types\Type;
 
 use function array_merge;
 use function method_exists;

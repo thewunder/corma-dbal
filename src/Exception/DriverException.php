@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Exception;
+namespace Corma\DBAL\Exception;
 
-use Doctrine\DBAL\Driver;
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Query;
+use Corma\DBAL\Driver;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Query;
 
 use function assert;
 

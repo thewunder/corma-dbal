@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Schema;
+namespace Corma\DBAL\Tests\Functional\Schema;
 
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Platforms\SQLServerPlatform;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Platforms\SQLServerPlatform;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Types\Types;
 
 use function array_shift;
 

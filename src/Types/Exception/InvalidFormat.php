@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Types\Exception;
+namespace Corma\DBAL\Types\Exception;
 
-use Doctrine\DBAL\Types\ConversionException;
+use Corma\DBAL\Types\ConversionException;
 use Throwable;
 
 use function sprintf;

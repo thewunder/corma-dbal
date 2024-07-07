@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver;
+namespace Corma\DBAL\Driver;
 
-use Doctrine\DBAL\Driver;
-use Doctrine\DBAL\Driver\AbstractOracleDriver\EasyConnectString;
-use Doctrine\DBAL\Driver\API\ExceptionConverter as ExceptionConverterInterface;
-use Doctrine\DBAL\Driver\API\OCI\ExceptionConverter;
-use Doctrine\DBAL\Platforms\OraclePlatform;
-use Doctrine\DBAL\ServerVersionProvider;
+use Corma\DBAL\Driver;
+use Corma\DBAL\Driver\AbstractOracleDriver\EasyConnectString;
+use Corma\DBAL\Driver\API\ExceptionConverter as ExceptionConverterInterface;
+use Corma\DBAL\Driver\API\OCI\ExceptionConverter;
+use Corma\DBAL\Platforms\OraclePlatform;
+use Corma\DBAL\ServerVersionProvider;
 
 /**
  * Abstract base implementation of the {@see Driver} interface for Oracle based drivers.

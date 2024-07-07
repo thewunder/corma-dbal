@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\Middleware;
+namespace Corma\DBAL\Driver\Middleware;
 
-use Doctrine\DBAL\Driver\Connection;
-use Doctrine\DBAL\Driver\Result;
-use Doctrine\DBAL\Driver\Statement;
+use Corma\DBAL\Driver\Connection;
+use Corma\DBAL\Driver\Result;
+use Corma\DBAL\Driver\Statement;
 
 abstract class AbstractConnectionMiddleware implements Connection
 {

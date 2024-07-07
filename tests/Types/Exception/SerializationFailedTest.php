@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Types\Exception;
+namespace Corma\DBAL\Tests\Types\Exception;
 
-use Doctrine\DBAL\Types\Exception\SerializationFailed;
+use Corma\DBAL\Types\Exception\SerializationFailed;
 use PHPUnit\Framework\TestCase;
 
 use function json_encode;

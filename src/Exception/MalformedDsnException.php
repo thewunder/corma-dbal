@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Exception;
+namespace Corma\DBAL\Exception;
 
 /** @psalm-immutable */
 class MalformedDsnException extends InvalidArgumentException

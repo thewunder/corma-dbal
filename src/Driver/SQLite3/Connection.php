@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\SQLite3;
+namespace Corma\DBAL\Driver\SQLite3;
 
-use Doctrine\DBAL\Driver\Connection as ConnectionInterface;
-use Doctrine\DBAL\Driver\Exception\NoIdentityValue;
+use Corma\DBAL\Driver\Connection as ConnectionInterface;
+use Corma\DBAL\Driver\Exception\NoIdentityValue;
 use SQLite3;
 
 use function assert;

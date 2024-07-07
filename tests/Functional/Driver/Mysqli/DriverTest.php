@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Driver\Mysqli;
+namespace Corma\DBAL\Tests\Functional\Driver\Mysqli;
 
-use Doctrine\DBAL\Driver as DriverInterface;
-use Doctrine\DBAL\Driver\Mysqli\Driver;
-use Doctrine\DBAL\Tests\Functional\Driver\AbstractDriverTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
+use Corma\DBAL\Driver as DriverInterface;
+use Corma\DBAL\Driver\Mysqli\Driver;
+use Corma\DBAL\Tests\Functional\Driver\AbstractDriverTestCase;
+use Corma\DBAL\Tests\TestUtil;
 use PHPUnit\Framework\Attributes\RequiresPhpExtension;
 
 #[RequiresPhpExtension('mysqli')]

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Schema;
+namespace Corma\DBAL\Tests\Schema;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Platforms\SQLitePlatform;
-use Doctrine\DBAL\Result;
-use Doctrine\DBAL\Schema\SQLiteSchemaManager;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Platforms\SQLitePlatform;
+use Corma\DBAL\Result;
+use Corma\DBAL\Schema\SQLiteSchemaManager;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 use ReflectionMethod;

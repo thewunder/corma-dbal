@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\Mysqli;
+namespace Corma\DBAL\Driver\Mysqli;
 
-use Doctrine\DBAL\Driver\Exception;
+use Corma\DBAL\Driver\Exception;
 use mysqli;
 
 interface Initializer

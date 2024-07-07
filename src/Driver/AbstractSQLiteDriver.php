@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver;
+namespace Corma\DBAL\Driver;
 
-use Doctrine\DBAL\Driver;
-use Doctrine\DBAL\Driver\API\ExceptionConverter as ExceptionConverterInterface;
-use Doctrine\DBAL\Driver\API\SQLite\ExceptionConverter;
-use Doctrine\DBAL\Platforms\SQLitePlatform;
-use Doctrine\DBAL\ServerVersionProvider;
+use Corma\DBAL\Driver;
+use Corma\DBAL\Driver\API\ExceptionConverter as ExceptionConverterInterface;
+use Corma\DBAL\Driver\API\SQLite\ExceptionConverter;
+use Corma\DBAL\Platforms\SQLitePlatform;
+use Corma\DBAL\ServerVersionProvider;
 
 /**
  * Abstract base implementation of the {@see Driver} interface for SQLite based drivers.

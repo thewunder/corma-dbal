@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Portability;
+namespace Corma\DBAL\Tests\Portability;
 
-use Doctrine\DBAL\Driver\Result as DriverResult;
-use Doctrine\DBAL\Portability\Converter;
-use Doctrine\DBAL\Portability\Result;
+use Corma\DBAL\Driver\Result as DriverResult;
+use Corma\DBAL\Portability\Converter;
+use Corma\DBAL\Portability\Result;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

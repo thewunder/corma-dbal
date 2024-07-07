@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\Mysqli\Exception;
+namespace Corma\DBAL\Driver\Mysqli\Exception;
 
-use Doctrine\DBAL\Driver\AbstractException;
+use Corma\DBAL\Driver\AbstractException;
 use mysqli_sql_exception;
 use mysqli_stmt;
 use ReflectionProperty;

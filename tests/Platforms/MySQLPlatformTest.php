@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Platforms;
+namespace Corma\DBAL\Tests\Platforms;
 
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Platforms\MySQLPlatform;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\TransactionIsolationLevel;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Platforms\MySQLPlatform;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\TransactionIsolationLevel;
+use Corma\DBAL\Types\Types;
 use Doctrine\Deprecations\PHPUnit\VerifyDeprecations;
 
 class MySQLPlatformTest extends AbstractMySQLPlatformTestCase

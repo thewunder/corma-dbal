@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\SQLSrv;
+namespace Corma\DBAL\Driver\SQLSrv;
 
-use Doctrine\DBAL\Driver\FetchUtils;
-use Doctrine\DBAL\Driver\Result as ResultInterface;
+use Corma\DBAL\Driver\FetchUtils;
+use Corma\DBAL\Driver\Result as ResultInterface;
 
 use function sqlsrv_fetch;
 use function sqlsrv_fetch_array;

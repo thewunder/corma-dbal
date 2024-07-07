@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Platforms\Exception;
+namespace Corma\DBAL\Platforms\Exception;
 
-use Doctrine\DBAL\Exception;
+use Corma\DBAL\Exception;
 
 interface PlatformException extends Exception
 {

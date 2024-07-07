@@ -10,7 +10,7 @@ You can get a DBAL Connection through the
 .. code-block:: php
 
     <?php
-    use Doctrine\DBAL\DriverManager;
+    use Corma\DBAL\DriverManager;
 
     //..
     $connectionParams = [
@@ -28,8 +28,8 @@ you can parse the URL to extract connection parameters for ``DriverManager``:
 .. code-block:: php
 
     <?php
-    use Doctrine\DBAL\DriverManager;
-    use Doctrine\DBAL\Tools\DsnParser;
+    use Corma\DBAL\DriverManager;
+    use Corma\DBAL\Tools\DsnParser;
 
     //..
     $dsnParser = new DsnParser();
@@ -109,7 +109,7 @@ DSNs, you can configure the parser with a mapping table:
 .. code-block:: php
 
     <?php
-    use Doctrine\DBAL\Tools\DsnParser;
+    use Corma\DBAL\Tools\DsnParser;
 
     //..
     $dsnParser = new DsnParser(['mysql' => 'mysqli', 'postgres' => 'pdo_pgsql']);
@@ -125,8 +125,8 @@ name.
 .. code-block:: php
 
     <?php
-    use Doctrine\DBAL\DriverManager;
-    use Doctrine\DBAL\Tools\DsnParser;
+    use Corma\DBAL\DriverManager;
+    use Corma\DBAL\Tools\DsnParser;
 
     //..
     $connectionParams = $dsnParser->parse($myDsn);
@@ -140,7 +140,7 @@ class:
 .. code-block:: php
 
     <?php
-    use Doctrine\DBAL\Tools\DsnParser;
+    use Corma\DBAL\Tools\DsnParser;
     use App\DBAL\CustomDriver; // implements Doctrine\DBAL\Driver
 
     //..

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Driver\Middleware;
+namespace Corma\DBAL\Tests\Driver\Middleware;
 
-use Doctrine\DBAL\Driver\Middleware\AbstractResultMiddleware;
-use Doctrine\DBAL\Driver\Result;
+use Corma\DBAL\Driver\Middleware\AbstractResultMiddleware;
+use Corma\DBAL\Driver\Result;
 use PHPUnit\Framework\TestCase;
 
 final class AbstractResultMiddlewareTest extends TestCase

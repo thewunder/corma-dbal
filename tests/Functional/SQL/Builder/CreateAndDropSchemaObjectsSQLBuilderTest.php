@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\SQL\Builder;
+namespace Corma\DBAL\Tests\SQL\Builder;
 
-use Doctrine\DBAL\Schema\AbstractSchemaManager;
-use Doctrine\DBAL\Schema\Schema;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Schema\AbstractSchemaManager;
+use Corma\DBAL\Schema\Schema;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Types\Types;
 
 use function strtolower;
 

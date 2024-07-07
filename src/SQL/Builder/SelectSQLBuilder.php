@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\SQL\Builder;
+namespace Corma\DBAL\SQL\Builder;
 
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Query\SelectQuery;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Query\SelectQuery;
 
 interface SelectSQLBuilder
 {

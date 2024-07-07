@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\Exception;
+namespace Corma\DBAL\Driver\Exception;
 
-use Doctrine\DBAL\Driver\AbstractException;
+use Corma\DBAL\Driver\AbstractException;
 use Throwable;
 
 /**

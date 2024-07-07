@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Types;
+namespace Corma\DBAL\Tests\Functional\Types;
 
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Tests\TestUtil;
+use Corma\DBAL\Types\Types;
 use Generator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Constraint\IsIdentical;

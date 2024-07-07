@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Portability;
+namespace Corma\DBAL\Portability;
 
-use Doctrine\DBAL\Driver\Connection as ConnectionInterface;
-use Doctrine\DBAL\Driver\Middleware\AbstractConnectionMiddleware;
+use Corma\DBAL\Driver\Connection as ConnectionInterface;
+use Corma\DBAL\Driver\Middleware\AbstractConnectionMiddleware;
 
 /**
  * Portability wrapper for a Connection.

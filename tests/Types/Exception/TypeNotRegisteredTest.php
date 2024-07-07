@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Types\Exception;
+namespace Corma\DBAL\Tests\Types\Exception;
 
-use Doctrine\DBAL\Types\Exception\TypeNotRegistered;
-use Doctrine\DBAL\Types\Type;
+use Corma\DBAL\Types\Exception\TypeNotRegistered;
+use Corma\DBAL\Types\Type;
 use PHPUnit\Framework\TestCase;
 
 class TypeNotRegisteredTest extends TestCase

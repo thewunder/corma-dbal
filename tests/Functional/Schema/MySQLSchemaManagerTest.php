@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Schema;
+namespace Corma\DBAL\Tests\Functional\Schema;
 
 use DateTime;
-use Doctrine\DBAL\DriverManager;
-use Doctrine\DBAL\Exception\DatabaseRequired;
-use Doctrine\DBAL\Platforms\AbstractMySQLPlatform;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Platforms\MariaDBPlatform;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Tests\Functional\Schema\MySQL\CustomType;
-use Doctrine\DBAL\Tests\Functional\Schema\MySQL\PointType;
-use Doctrine\DBAL\Tests\TestUtil;
-use Doctrine\DBAL\Types\BlobType;
-use Doctrine\DBAL\Types\JsonType;
-use Doctrine\DBAL\Types\Type;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\DriverManager;
+use Corma\DBAL\Exception\DatabaseRequired;
+use Corma\DBAL\Platforms\AbstractMySQLPlatform;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Platforms\MariaDBPlatform;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Tests\Functional\Schema\MySQL\CustomType;
+use Corma\DBAL\Tests\Functional\Schema\MySQL\PointType;
+use Corma\DBAL\Tests\TestUtil;
+use Corma\DBAL\Types\BlobType;
+use Corma\DBAL\Types\JsonType;
+use Corma\DBAL\Types\Type;
+use Corma\DBAL\Types\Types;
 
 use function array_keys;
 

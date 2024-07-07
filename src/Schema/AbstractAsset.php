@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Schema;
+namespace Corma\DBAL\Schema;
 
-use Doctrine\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Platforms\AbstractPlatform;
 
 use function array_map;
 use function crc32;

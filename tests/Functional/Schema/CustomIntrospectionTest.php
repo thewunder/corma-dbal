@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Schema;
+namespace Corma\DBAL\Tests\Functional\Schema;
 
-use Doctrine\DBAL\Schema\ColumnDiff;
-use Doctrine\DBAL\Schema\Schema;
-use Doctrine\DBAL\Tests\Functional\Schema\Types\MoneyType;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
-use Doctrine\DBAL\Types\Type;
+use Corma\DBAL\Schema\ColumnDiff;
+use Corma\DBAL\Schema\Schema;
+use Corma\DBAL\Tests\Functional\Schema\Types\MoneyType;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Tests\TestUtil;
+use Corma\DBAL\Types\Type;
 
 use function array_map;
 use function implode;

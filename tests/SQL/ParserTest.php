@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\SQL;
+namespace Corma\DBAL\Tests\SQL;
 
-use Doctrine\DBAL\SQL\Parser;
-use Doctrine\DBAL\SQL\Parser\Visitor;
+use Corma\DBAL\SQL\Parser;
+use Corma\DBAL\SQL\Parser\Visitor;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

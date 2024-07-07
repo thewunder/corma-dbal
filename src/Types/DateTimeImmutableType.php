@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Types;
+namespace Corma\DBAL\Types;
 
 use DateTimeImmutable;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Types\Exception\InvalidFormat;
-use Doctrine\DBAL\Types\Exception\InvalidType;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Types\Exception\InvalidFormat;
+use Corma\DBAL\Types\Exception\InvalidType;
 use Exception;
 
 /**

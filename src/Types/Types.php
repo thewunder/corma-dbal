@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Types;
+namespace Corma\DBAL\Types;
 
 /**
  * Default built-in types provided by Doctrine DBAL.

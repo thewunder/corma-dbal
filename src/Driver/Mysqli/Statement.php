@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\Mysqli;
+namespace Corma\DBAL\Driver\Mysqli;
 
-use Doctrine\DBAL\Driver\Exception;
-use Doctrine\DBAL\Driver\Mysqli\Exception\FailedReadingStreamOffset;
-use Doctrine\DBAL\Driver\Mysqli\Exception\NonStreamResourceUsedAsLargeObject;
-use Doctrine\DBAL\Driver\Mysqli\Exception\StatementError;
-use Doctrine\DBAL\Driver\Statement as StatementInterface;
-use Doctrine\DBAL\ParameterType;
+use Corma\DBAL\Driver\Exception;
+use Corma\DBAL\Driver\Mysqli\Exception\FailedReadingStreamOffset;
+use Corma\DBAL\Driver\Mysqli\Exception\NonStreamResourceUsedAsLargeObject;
+use Corma\DBAL\Driver\Mysqli\Exception\StatementError;
+use Corma\DBAL\Driver\Statement as StatementInterface;
+use Corma\DBAL\ParameterType;
 use mysqli_sql_exception;
 use mysqli_stmt;
 

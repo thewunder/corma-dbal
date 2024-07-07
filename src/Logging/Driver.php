@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Logging;
+namespace Corma\DBAL\Logging;
 
-use Doctrine\DBAL\Driver as DriverInterface;
-use Doctrine\DBAL\Driver\Middleware\AbstractDriverMiddleware;
+use Corma\DBAL\Driver as DriverInterface;
+use Corma\DBAL\Driver\Middleware\AbstractDriverMiddleware;
 use Psr\Log\LoggerInterface;
 use SensitiveParameter;
 

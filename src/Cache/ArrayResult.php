@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Cache;
+namespace Corma\DBAL\Cache;
 
-use Doctrine\DBAL\Driver\FetchUtils;
-use Doctrine\DBAL\Driver\Result;
+use Corma\DBAL\Driver\FetchUtils;
+use Corma\DBAL\Driver\Result;
 
 use function array_values;
 use function count;

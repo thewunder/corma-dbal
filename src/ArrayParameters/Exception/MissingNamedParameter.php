@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\ArrayParameters\Exception;
+namespace Corma\DBAL\ArrayParameters\Exception;
 
-use Doctrine\DBAL\ArrayParameters\Exception;
+use Corma\DBAL\ArrayParameters\Exception;
 use LogicException;
 
 use function sprintf;

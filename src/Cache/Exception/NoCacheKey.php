@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Cache\Exception;
+namespace Corma\DBAL\Cache\Exception;
 
-use Doctrine\DBAL\Cache\CacheException;
+use Corma\DBAL\Cache\CacheException;
 
 /** @psalm-immutable */
 final class NoCacheKey extends CacheException

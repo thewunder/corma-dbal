@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Driver;
+namespace Corma\DBAL\Tests\Driver;
 
-use Doctrine\DBAL\Connection\StaticServerVersionProvider;
-use Doctrine\DBAL\Driver;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Platforms\MariaDB1052Platform;
-use Doctrine\DBAL\Platforms\MariaDB1060Platform;
-use Doctrine\DBAL\Platforms\MariaDBPlatform;
-use Doctrine\DBAL\Platforms\MySQL80Platform;
-use Doctrine\DBAL\Platforms\MySQLPlatform;
-use Doctrine\DBAL\Platforms\PostgreSQLPlatform;
+use Corma\DBAL\Connection\StaticServerVersionProvider;
+use Corma\DBAL\Driver;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Platforms\MariaDB1052Platform;
+use Corma\DBAL\Platforms\MariaDB1060Platform;
+use Corma\DBAL\Platforms\MariaDBPlatform;
+use Corma\DBAL\Platforms\MySQL80Platform;
+use Corma\DBAL\Platforms\MySQLPlatform;
+use Corma\DBAL\Platforms\PostgreSQLPlatform;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\AbstractOracleDriver;
+namespace Corma\DBAL\Driver\AbstractOracleDriver;
 
 use function implode;
 use function is_array;

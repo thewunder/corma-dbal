@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Driver\Mysqli;
+namespace Corma\DBAL\Tests\Functional\Driver\Mysqli;
 
-use Doctrine\DBAL\Driver\Mysqli\Result;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
+use Corma\DBAL\Driver\Mysqli\Result;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Tests\TestUtil;
 use mysqli;
 use mysqli_driver;
 use mysqli_sql_exception;

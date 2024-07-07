@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Schema\SQLite;
+namespace Corma\DBAL\Tests\Functional\Schema\SQLite;
 
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Platforms\SQLitePlatform;
-use Doctrine\DBAL\Schema\AbstractSchemaManager;
-use Doctrine\DBAL\Schema\Comparator;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Tests\Functional\Schema\ComparatorTestUtils;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Platforms\SQLitePlatform;
+use Corma\DBAL\Schema\AbstractSchemaManager;
+use Corma\DBAL\Schema\Comparator;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Tests\Functional\Schema\ComparatorTestUtils;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Types\Types;
 
 final class ComparatorTest extends FunctionalTestCase
 {

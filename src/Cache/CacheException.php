@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Cache;
+namespace Corma\DBAL\Cache;
 
-use Doctrine\DBAL\Exception;
+use Corma\DBAL\Exception;
 
 /** @psalm-immutable */
 class CacheException extends \Exception implements Exception

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\SQLSrv;
+namespace Corma\DBAL\Driver\SQLSrv;
 
-use Doctrine\DBAL\Driver\AbstractSQLServerDriver;
-use Doctrine\DBAL\Driver\AbstractSQLServerDriver\Exception\PortWithoutHost;
-use Doctrine\DBAL\Driver\SQLSrv\Exception\Error;
+use Corma\DBAL\Driver\AbstractSQLServerDriver;
+use Corma\DBAL\Driver\AbstractSQLServerDriver\Exception\PortWithoutHost;
+use Corma\DBAL\Driver\SQLSrv\Exception\Error;
 use SensitiveParameter;
 
 use function sqlsrv_configure;

@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Schema;
+namespace Corma\DBAL\Schema;
 
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Platforms\AbstractMySQLPlatform;
-use Doctrine\DBAL\Platforms\MariaDBPlatform;
-use Doctrine\DBAL\Platforms\MySQL;
-use Doctrine\DBAL\Platforms\MySQL\CharsetMetadataProvider\CachingCharsetMetadataProvider;
-use Doctrine\DBAL\Platforms\MySQL\CharsetMetadataProvider\ConnectionCharsetMetadataProvider;
-use Doctrine\DBAL\Platforms\MySQL\CollationMetadataProvider\CachingCollationMetadataProvider;
-use Doctrine\DBAL\Platforms\MySQL\CollationMetadataProvider\ConnectionCollationMetadataProvider;
-use Doctrine\DBAL\Platforms\MySQL\DefaultTableOptions;
-use Doctrine\DBAL\Result;
-use Doctrine\DBAL\Types\Type;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Platforms\AbstractMySQLPlatform;
+use Corma\DBAL\Platforms\MariaDBPlatform;
+use Corma\DBAL\Platforms\MySQL;
+use Corma\DBAL\Platforms\MySQL\CharsetMetadataProvider\CachingCharsetMetadataProvider;
+use Corma\DBAL\Platforms\MySQL\CharsetMetadataProvider\ConnectionCharsetMetadataProvider;
+use Corma\DBAL\Platforms\MySQL\CollationMetadataProvider\CachingCollationMetadataProvider;
+use Corma\DBAL\Platforms\MySQL\CollationMetadataProvider\ConnectionCollationMetadataProvider;
+use Corma\DBAL\Platforms\MySQL\DefaultTableOptions;
+use Corma\DBAL\Result;
+use Corma\DBAL\Types\Type;
 
 use function array_change_key_case;
 use function assert;

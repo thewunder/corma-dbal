@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Query\Expression;
+namespace Corma\DBAL\Query\Expression;
 
 use Countable;
 

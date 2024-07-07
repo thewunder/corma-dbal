@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Platforms\MySQL;
+namespace Corma\DBAL\Platforms\MySQL;
 
 /** @internal */
 interface CharsetMetadataProvider

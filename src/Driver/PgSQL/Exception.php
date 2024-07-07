@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\PgSQL;
+namespace Corma\DBAL\Driver\PgSQL;
 
-use Doctrine\DBAL\Driver\AbstractException;
+use Corma\DBAL\Driver\AbstractException;
 use PgSql\Result as PgSqlResult;
 
 use function pg_result_error_field;

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Driver\PgSQL;
+namespace Corma\DBAL\Tests\Functional\Driver\PgSQL;
 
-use Doctrine\DBAL\Driver\PgSQL\Driver;
-use Doctrine\DBAL\Tests\Functional\Driver\AbstractPostgreSQLDriverTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
+use Corma\DBAL\Driver\PgSQL\Driver;
+use Corma\DBAL\Tests\Functional\Driver\AbstractPostgreSQLDriverTestCase;
+use Corma\DBAL\Tests\TestUtil;
 use PHPUnit\Framework\Attributes\RequiresPhpExtension;
 
 #[RequiresPhpExtension('pgsql')]

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Platforms\SQLite;
+namespace Corma\DBAL\Platforms\SQLite;
 
-use Doctrine\DBAL\Platforms\SQLitePlatform;
-use Doctrine\DBAL\Schema\Comparator as BaseComparator;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Schema\TableDiff;
+use Corma\DBAL\Platforms\SQLitePlatform;
+use Corma\DBAL\Schema\Comparator as BaseComparator;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Schema\TableDiff;
 
 use function strcasecmp;
 

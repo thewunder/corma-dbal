@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Schema\PostgreSQL;
+namespace Corma\DBAL\Tests\Functional\Schema\PostgreSQL;
 
-use Doctrine\DBAL\Platforms\PostgreSQLPlatform;
-use Doctrine\DBAL\Schema\Column;
-use Doctrine\DBAL\Schema\Schema;
-use Doctrine\DBAL\Schema\Sequence;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Types\IntegerType;
+use Corma\DBAL\Platforms\PostgreSQLPlatform;
+use Corma\DBAL\Schema\Column;
+use Corma\DBAL\Schema\Schema;
+use Corma\DBAL\Schema\Sequence;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Types\IntegerType;
 
 final class SchemaTest extends FunctionalTestCase
 {

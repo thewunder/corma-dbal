@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional;
+namespace Corma\DBAL\Tests\Functional;
 
-use Doctrine\DBAL\Driver\IBMDB2;
-use Doctrine\DBAL\Driver\Mysqli;
-use Doctrine\DBAL\Driver\PDO;
-use Doctrine\DBAL\Driver\SQLSrv;
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Exception\DriverException;
-use Doctrine\DBAL\ParameterType;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
-use Doctrine\DBAL\Types\Type;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Driver\IBMDB2;
+use Corma\DBAL\Driver\Mysqli;
+use Corma\DBAL\Driver\PDO;
+use Corma\DBAL\Driver\SQLSrv;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Exception\DriverException;
+use Corma\DBAL\ParameterType;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Tests\TestUtil;
+use Corma\DBAL\Types\Type;
+use Corma\DBAL\Types\Types;
 use Error;
 
 use function base64_decode;

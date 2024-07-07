@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\PDO\SQLSrv;
+namespace Corma\DBAL\Driver\PDO\SQLSrv;
 
-use Doctrine\DBAL\Driver\Middleware\AbstractStatementMiddleware;
-use Doctrine\DBAL\Driver\PDO\Statement as PDOStatement;
-use Doctrine\DBAL\ParameterType;
+use Corma\DBAL\Driver\Middleware\AbstractStatementMiddleware;
+use Corma\DBAL\Driver\PDO\Statement as PDOStatement;
+use Corma\DBAL\ParameterType;
 use PDO;
 
 final class Statement extends AbstractStatementMiddleware

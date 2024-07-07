@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Schema;
+namespace Corma\DBAL\Schema;
 
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Schema\Exception\NamespaceAlreadyExists;
-use Doctrine\DBAL\Schema\Exception\SequenceAlreadyExists;
-use Doctrine\DBAL\Schema\Exception\SequenceDoesNotExist;
-use Doctrine\DBAL\Schema\Exception\TableAlreadyExists;
-use Doctrine\DBAL\Schema\Exception\TableDoesNotExist;
-use Doctrine\DBAL\SQL\Builder\CreateSchemaObjectsSQLBuilder;
-use Doctrine\DBAL\SQL\Builder\DropSchemaObjectsSQLBuilder;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Schema\Exception\NamespaceAlreadyExists;
+use Corma\DBAL\Schema\Exception\SequenceAlreadyExists;
+use Corma\DBAL\Schema\Exception\SequenceDoesNotExist;
+use Corma\DBAL\Schema\Exception\TableAlreadyExists;
+use Corma\DBAL\Schema\Exception\TableDoesNotExist;
+use Corma\DBAL\SQL\Builder\CreateSchemaObjectsSQLBuilder;
+use Corma\DBAL\SQL\Builder\DropSchemaObjectsSQLBuilder;
 
 use function array_values;
 use function str_contains;

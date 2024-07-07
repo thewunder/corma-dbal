@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\Mysqli;
+namespace Corma\DBAL\Driver\Mysqli;
 
-use Doctrine\DBAL\Driver\AbstractMySQLDriver;
-use Doctrine\DBAL\Driver\Mysqli\Exception\ConnectionFailed;
-use Doctrine\DBAL\Driver\Mysqli\Exception\HostRequired;
-use Doctrine\DBAL\Driver\Mysqli\Initializer\Charset;
-use Doctrine\DBAL\Driver\Mysqli\Initializer\Options;
-use Doctrine\DBAL\Driver\Mysqli\Initializer\Secure;
+use Corma\DBAL\Driver\AbstractMySQLDriver;
+use Corma\DBAL\Driver\Mysqli\Exception\ConnectionFailed;
+use Corma\DBAL\Driver\Mysqli\Exception\HostRequired;
+use Corma\DBAL\Driver\Mysqli\Initializer\Charset;
+use Corma\DBAL\Driver\Mysqli\Initializer\Options;
+use Corma\DBAL\Driver\Mysqli\Initializer\Secure;
 use Generator;
 use mysqli;
 use mysqli_sql_exception;

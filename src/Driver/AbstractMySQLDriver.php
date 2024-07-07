@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver;
+namespace Corma\DBAL\Driver;
 
-use Doctrine\DBAL\Driver;
-use Doctrine\DBAL\Driver\API\ExceptionConverter as ExceptionConverterInterface;
-use Doctrine\DBAL\Driver\API\MySQL\ExceptionConverter;
-use Doctrine\DBAL\Platforms\AbstractMySQLPlatform;
-use Doctrine\DBAL\Platforms\Exception\InvalidPlatformVersion;
-use Doctrine\DBAL\Platforms\MariaDB1052Platform;
-use Doctrine\DBAL\Platforms\MariaDB1060Platform;
-use Doctrine\DBAL\Platforms\MariaDBPlatform;
-use Doctrine\DBAL\Platforms\MySQL80Platform;
-use Doctrine\DBAL\Platforms\MySQLPlatform;
-use Doctrine\DBAL\ServerVersionProvider;
+use Corma\DBAL\Driver;
+use Corma\DBAL\Driver\API\ExceptionConverter as ExceptionConverterInterface;
+use Corma\DBAL\Driver\API\MySQL\ExceptionConverter;
+use Corma\DBAL\Platforms\AbstractMySQLPlatform;
+use Corma\DBAL\Platforms\Exception\InvalidPlatformVersion;
+use Corma\DBAL\Platforms\MariaDB1052Platform;
+use Corma\DBAL\Platforms\MariaDB1060Platform;
+use Corma\DBAL\Platforms\MariaDBPlatform;
+use Corma\DBAL\Platforms\MySQL80Platform;
+use Corma\DBAL\Platforms\MySQLPlatform;
+use Corma\DBAL\ServerVersionProvider;
 
 use function preg_match;
 use function stripos;

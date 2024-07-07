@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Schema;
+namespace Corma\DBAL\Schema;
 
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Exception\DatabaseObjectNotFoundException;
-use Doctrine\DBAL\Platforms\OraclePlatform;
-use Doctrine\DBAL\Result;
-use Doctrine\DBAL\Types\Type;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Exception\DatabaseObjectNotFoundException;
+use Corma\DBAL\Platforms\OraclePlatform;
+use Corma\DBAL\Result;
+use Corma\DBAL\Types\Type;
 
 use function array_change_key_case;
 use function array_key_exists;

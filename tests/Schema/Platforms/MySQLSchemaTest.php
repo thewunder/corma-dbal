@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Schema\Platforms;
+namespace Corma\DBAL\Tests\Schema\Platforms;
 
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Platforms\MySQL;
-use Doctrine\DBAL\Platforms\MySQL\CharsetMetadataProvider;
-use Doctrine\DBAL\Platforms\MySQL\CollationMetadataProvider;
-use Doctrine\DBAL\Platforms\MySQL\DefaultTableOptions;
-use Doctrine\DBAL\Platforms\MySQLPlatform;
-use Doctrine\DBAL\Schema\Comparator;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Platforms\MySQL;
+use Corma\DBAL\Platforms\MySQL\CharsetMetadataProvider;
+use Corma\DBAL\Platforms\MySQL\CollationMetadataProvider;
+use Corma\DBAL\Platforms\MySQL\DefaultTableOptions;
+use Corma\DBAL\Platforms\MySQLPlatform;
+use Corma\DBAL\Schema\Comparator;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Types\Types;
 use PHPUnit\Framework\TestCase;
 
 class MySQLSchemaTest extends TestCase

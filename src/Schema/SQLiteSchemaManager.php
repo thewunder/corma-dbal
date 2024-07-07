@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Schema;
+namespace Corma\DBAL\Schema;
 
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Platforms\SQLite;
-use Doctrine\DBAL\Platforms\SQLitePlatform;
-use Doctrine\DBAL\Result;
-use Doctrine\DBAL\Types\StringType;
-use Doctrine\DBAL\Types\TextType;
-use Doctrine\DBAL\Types\Type;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Platforms\SQLite;
+use Corma\DBAL\Platforms\SQLitePlatform;
+use Corma\DBAL\Result;
+use Corma\DBAL\Types\StringType;
+use Corma\DBAL\Types\TextType;
+use Corma\DBAL\Types\Type;
 
 use function array_change_key_case;
 use function array_merge;

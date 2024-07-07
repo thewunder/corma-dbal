@@ -2397,7 +2397,7 @@ In order to share the same `PDO` instances between DBAL and other components, in
 Before:
 
 ```php
-use Doctrine\DBAL\Portability\Connection;
+use Corma\DBAL\Portability\Connection;
 
 $params = array(
     'wrapperClass' => Connection::class,
@@ -2411,10 +2411,10 @@ $stmt->fetchAll(PDO::FETCH_COLUMN);
 After:
 
 ```php
-use Doctrine\DBAL\ColumnCase;
-use Doctrine\DBAL\FetchMode;
-use Doctrine\DBAL\ParameterType;
-use Doctrine\DBAL\Portability\Connection;
+use Corma\DBAL\ColumnCase;
+use Corma\DBAL\FetchMode;
+use Corma\DBAL\ParameterType;
+use Corma\DBAL\Portability\Connection;
 
 $params = array(
     'wrapperClass' => Connection::class,

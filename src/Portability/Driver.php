@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Portability;
+namespace Corma\DBAL\Portability;
 
-use Doctrine\DBAL\ColumnCase;
-use Doctrine\DBAL\Driver as DriverInterface;
-use Doctrine\DBAL\Driver\Connection as ConnectionInterface;
-use Doctrine\DBAL\Driver\Middleware\AbstractDriverMiddleware;
+use Corma\DBAL\ColumnCase;
+use Corma\DBAL\Driver as DriverInterface;
+use Corma\DBAL\Driver\Connection as ConnectionInterface;
+use Corma\DBAL\Driver\Middleware\AbstractDriverMiddleware;
 use PDO;
 use SensitiveParameter;
 

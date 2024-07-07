@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Tools\Console;
+namespace Corma\DBAL\Tests\Tools\Console;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Tools\Console\Command\RunSqlCommand;
-use Doctrine\DBAL\Tools\Console\ConnectionProvider\SingleConnectionProvider;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Tools\Console\Command\RunSqlCommand;
+use Corma\DBAL\Tools\Console\ConnectionProvider\SingleConnectionProvider;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use RuntimeException;

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Driver\PgSQL;
+namespace Corma\DBAL\Tests\Functional\Driver\PgSQL;
 
-use Doctrine\DBAL\Driver\PgSQL\Result;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Driver\PgSQL\Result;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Tests\TestUtil;
+use Corma\DBAL\Types\Types;
 use Error;
 use Generator;
 use PgSql\Connection as PgSqlConnection;

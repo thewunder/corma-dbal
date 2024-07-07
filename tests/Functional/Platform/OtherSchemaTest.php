@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Platform;
+namespace Corma\DBAL\Tests\Functional\Platform;
 
-use Doctrine\DBAL\DriverManager;
-use Doctrine\DBAL\Platforms\SQLitePlatform;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Tools\DsnParser;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\DriverManager;
+use Corma\DBAL\Platforms\SQLitePlatform;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Tools\DsnParser;
+use Corma\DBAL\Types\Types;
 
 class OtherSchemaTest extends FunctionalTestCase
 {

@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Platforms\MySQL;
+namespace Corma\DBAL\Tests\Platforms\MySQL;
 
-use Doctrine\DBAL\Platforms\MariaDBPlatform;
-use Doctrine\DBAL\Platforms\MySQL\CharsetMetadataProvider;
-use Doctrine\DBAL\Platforms\MySQL\CollationMetadataProvider;
-use Doctrine\DBAL\Platforms\MySQL\Comparator;
-use Doctrine\DBAL\Platforms\MySQL\DefaultTableOptions;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Platforms\MariaDBPlatform;
+use Corma\DBAL\Platforms\MySQL\CharsetMetadataProvider;
+use Corma\DBAL\Platforms\MySQL\CollationMetadataProvider;
+use Corma\DBAL\Platforms\MySQL\Comparator;
+use Corma\DBAL\Platforms\MySQL\DefaultTableOptions;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Types\Types;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

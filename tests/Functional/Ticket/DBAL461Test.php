@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Ticket;
+namespace Corma\DBAL\Tests\Functional\Ticket;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Platforms\SQLServerPlatform;
-use Doctrine\DBAL\Schema\SQLServerSchemaManager;
-use Doctrine\DBAL\Types\DecimalType;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Platforms\SQLServerPlatform;
+use Corma\DBAL\Schema\SQLServerSchemaManager;
+use Corma\DBAL\Types\DecimalType;
+use Corma\DBAL\Types\Types;
 use PHPUnit\Framework\TestCase;
 use ReflectionMethod;
 

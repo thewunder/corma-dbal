@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Portability;
+namespace Corma\DBAL\Tests\Portability;
 
-use Doctrine\DBAL\Portability\Converter;
+use Corma\DBAL\Portability\Converter;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

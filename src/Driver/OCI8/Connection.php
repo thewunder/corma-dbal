@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\OCI8;
+namespace Corma\DBAL\Driver\OCI8;
 
-use Doctrine\DBAL\Driver\Connection as ConnectionInterface;
-use Doctrine\DBAL\Driver\Exception;
-use Doctrine\DBAL\Driver\Exception\IdentityColumnsNotSupported;
-use Doctrine\DBAL\Driver\OCI8\Exception\Error;
-use Doctrine\DBAL\SQL\Parser;
+use Corma\DBAL\Driver\Connection as ConnectionInterface;
+use Corma\DBAL\Driver\Exception;
+use Corma\DBAL\Driver\Exception\IdentityColumnsNotSupported;
+use Corma\DBAL\Driver\OCI8\Exception\Error;
+use Corma\DBAL\SQL\Parser;
 
 use function addcslashes;
 use function assert;

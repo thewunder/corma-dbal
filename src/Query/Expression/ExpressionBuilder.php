@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Query\Expression;
+namespace Corma\DBAL\Query\Expression;
 
-use Doctrine\DBAL\Connection;
+use Corma\DBAL\Connection;
 
 use function implode;
 use function sprintf;

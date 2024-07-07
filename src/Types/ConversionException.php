@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Types;
+namespace Corma\DBAL\Types;
 
-use Doctrine\DBAL\Exception;
+use Corma\DBAL\Exception;
 
 /**
  * Conversion Exception is thrown when the database to PHP conversion fails.

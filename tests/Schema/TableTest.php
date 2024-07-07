@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Schema;
+namespace Corma\DBAL\Tests\Schema;
 
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Platforms\MySQLPlatform;
-use Doctrine\DBAL\Platforms\SQLitePlatform;
-use Doctrine\DBAL\Schema\Column;
-use Doctrine\DBAL\Schema\ForeignKeyConstraint;
-use Doctrine\DBAL\Schema\Index;
-use Doctrine\DBAL\Schema\SchemaException;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Schema\UniqueConstraint;
-use Doctrine\DBAL\Types\Type;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Platforms\MySQLPlatform;
+use Corma\DBAL\Platforms\SQLitePlatform;
+use Corma\DBAL\Schema\Column;
+use Corma\DBAL\Schema\ForeignKeyConstraint;
+use Corma\DBAL\Schema\Index;
+use Corma\DBAL\Schema\SchemaException;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Schema\UniqueConstraint;
+use Corma\DBAL\Types\Type;
+use Corma\DBAL\Types\Types;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

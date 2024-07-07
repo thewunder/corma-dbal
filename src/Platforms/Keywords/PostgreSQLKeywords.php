@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Platforms\Keywords;
+namespace Corma\DBAL\Platforms\Keywords;
 
 /**
  * Reserved keywords list corresponding to the PostgreSQL database platform of the oldest supported version.

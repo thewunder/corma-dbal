@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Logging;
+namespace Corma\DBAL\Logging;
 
-use Doctrine\DBAL\Driver\Middleware\AbstractStatementMiddleware;
-use Doctrine\DBAL\Driver\Result as ResultInterface;
-use Doctrine\DBAL\Driver\Statement as StatementInterface;
-use Doctrine\DBAL\ParameterType;
+use Corma\DBAL\Driver\Middleware\AbstractStatementMiddleware;
+use Corma\DBAL\Driver\Result as ResultInterface;
+use Corma\DBAL\Driver\Statement as StatementInterface;
+use Corma\DBAL\ParameterType;
 use Psr\Log\LoggerInterface;
 
 final class Statement extends AbstractStatementMiddleware

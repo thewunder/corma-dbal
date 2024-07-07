@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Portability;
+namespace Corma\DBAL\Tests\Portability;
 
-use Doctrine\DBAL\Driver\Statement as DriverStatement;
-use Doctrine\DBAL\ParameterType;
-use Doctrine\DBAL\Portability\Converter;
-use Doctrine\DBAL\Portability\Statement;
+use Corma\DBAL\Driver\Statement as DriverStatement;
+use Corma\DBAL\ParameterType;
+use Corma\DBAL\Portability\Converter;
+use Corma\DBAL\Portability\Statement;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 

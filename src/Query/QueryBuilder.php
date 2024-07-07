@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Query;
+namespace Corma\DBAL\Query;
 
-use Doctrine\DBAL\ArrayParameterType;
-use Doctrine\DBAL\Cache\QueryCacheProfile;
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\ParameterType;
-use Doctrine\DBAL\Query\Exception\NonUniqueAlias;
-use Doctrine\DBAL\Query\Exception\UnknownAlias;
-use Doctrine\DBAL\Query\Expression\CompositeExpression;
-use Doctrine\DBAL\Query\Expression\ExpressionBuilder;
-use Doctrine\DBAL\Query\ForUpdate\ConflictResolutionMode;
-use Doctrine\DBAL\Result;
-use Doctrine\DBAL\Statement;
-use Doctrine\DBAL\Types\Type;
+use Corma\DBAL\ArrayParameterType;
+use Corma\DBAL\Cache\QueryCacheProfile;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Exception;
+use Corma\DBAL\ParameterType;
+use Corma\DBAL\Query\Exception\NonUniqueAlias;
+use Corma\DBAL\Query\Exception\UnknownAlias;
+use Corma\DBAL\Query\Expression\CompositeExpression;
+use Corma\DBAL\Query\Expression\ExpressionBuilder;
+use Corma\DBAL\Query\ForUpdate\ConflictResolutionMode;
+use Corma\DBAL\Result;
+use Corma\DBAL\Statement;
+use Corma\DBAL\Types\Type;
 
 use function array_key_exists;
 use function array_keys;

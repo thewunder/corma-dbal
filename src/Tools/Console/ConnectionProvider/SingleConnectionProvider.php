@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tools\Console\ConnectionProvider;
+namespace Corma\DBAL\Tools\Console\ConnectionProvider;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Tools\Console\ConnectionNotFound;
-use Doctrine\DBAL\Tools\Console\ConnectionProvider;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Tools\Console\ConnectionNotFound;
+use Corma\DBAL\Tools\Console\ConnectionProvider;
 
 use function sprintf;
 

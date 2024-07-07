@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Cache;
+namespace Corma\DBAL\Cache;
 
-use Doctrine\DBAL\Cache\Exception\NoCacheKey;
-use Doctrine\DBAL\Connection;
+use Corma\DBAL\Cache\Exception\NoCacheKey;
+use Corma\DBAL\Connection;
 use Psr\Cache\CacheItemPoolInterface;
 
 use function hash;

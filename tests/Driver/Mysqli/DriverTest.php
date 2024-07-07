@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Driver\Mysqli;
+namespace Corma\DBAL\Tests\Driver\Mysqli;
 
-use Doctrine\DBAL\Driver as DriverInterface;
-use Doctrine\DBAL\Driver\Mysqli\Driver;
-use Doctrine\DBAL\Tests\Driver\AbstractMySQLDriverTestCase;
+use Corma\DBAL\Driver as DriverInterface;
+use Corma\DBAL\Driver\Mysqli\Driver;
+use Corma\DBAL\Tests\Driver\AbstractMySQLDriverTestCase;
 
 class DriverTest extends AbstractMySQLDriverTestCase
 {

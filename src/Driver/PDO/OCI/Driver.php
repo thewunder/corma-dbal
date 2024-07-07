@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\PDO\OCI;
+namespace Corma\DBAL\Driver\PDO\OCI;
 
-use Doctrine\DBAL\Driver\AbstractOracleDriver;
-use Doctrine\DBAL\Driver\PDO\Connection;
-use Doctrine\DBAL\Driver\PDO\Exception;
+use Corma\DBAL\Driver\AbstractOracleDriver;
+use Corma\DBAL\Driver\PDO\Connection;
+use Corma\DBAL\Driver\PDO\Exception;
 use PDO;
 use PDOException;
 use SensitiveParameter;

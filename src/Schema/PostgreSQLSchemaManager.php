@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Schema;
+namespace Corma\DBAL\Schema;
 
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Platforms\PostgreSQLPlatform;
-use Doctrine\DBAL\Result;
-use Doctrine\DBAL\Types\JsonType;
-use Doctrine\DBAL\Types\Type;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Platforms\PostgreSQLPlatform;
+use Corma\DBAL\Result;
+use Corma\DBAL\Types\JsonType;
+use Corma\DBAL\Types\Type;
 
 use function array_change_key_case;
 use function array_key_exists;

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Portability;
+namespace Corma\DBAL\Tests\Portability;
 
-use Doctrine\DBAL\Platforms\OraclePlatform;
-use Doctrine\DBAL\Platforms\SQLitePlatform;
-use Doctrine\DBAL\Portability\Connection;
-use Doctrine\DBAL\Portability\OptimizeFlags;
+use Corma\DBAL\Platforms\OraclePlatform;
+use Corma\DBAL\Platforms\SQLitePlatform;
+use Corma\DBAL\Portability\Connection;
+use Corma\DBAL\Portability\OptimizeFlags;
 use PHPUnit\Framework\TestCase;
 
 class OptimizeFlagsTest extends TestCase

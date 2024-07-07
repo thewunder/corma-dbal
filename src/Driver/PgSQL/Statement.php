@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\PgSQL;
+namespace Corma\DBAL\Driver\PgSQL;
 
-use Doctrine\DBAL\Driver\PgSQL\Exception\UnknownParameter;
-use Doctrine\DBAL\Driver\Statement as StatementInterface;
-use Doctrine\DBAL\ParameterType;
+use Corma\DBAL\Driver\PgSQL\Exception\UnknownParameter;
+use Corma\DBAL\Driver\Statement as StatementInterface;
+use Corma\DBAL\ParameterType;
 use PgSql\Connection as PgSqlConnection;
 
 use function assert;

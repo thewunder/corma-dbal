@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Platforms\MySQL\CharsetMetadataProvider;
+namespace Corma\DBAL\Platforms\MySQL\CharsetMetadataProvider;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Platforms\MySQL\CharsetMetadataProvider;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Platforms\MySQL\CharsetMetadataProvider;
 
 /** @internal */
 final class ConnectionCharsetMetadataProvider implements CharsetMetadataProvider

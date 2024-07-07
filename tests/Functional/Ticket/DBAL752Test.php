@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Ticket;
+namespace Corma\DBAL\Tests\Functional\Ticket;
 
-use Doctrine\DBAL\Platforms\SQLitePlatform;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Types\BigIntType;
-use Doctrine\DBAL\Types\IntegerType;
-use Doctrine\DBAL\Types\SmallIntType;
+use Corma\DBAL\Platforms\SQLitePlatform;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Types\BigIntType;
+use Corma\DBAL\Types\IntegerType;
+use Corma\DBAL\Types\SmallIntType;
 
 class DBAL752Test extends FunctionalTestCase
 {

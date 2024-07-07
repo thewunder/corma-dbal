@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Platform\ColumnTest;
+namespace Corma\DBAL\Tests\Functional\Platform\ColumnTest;
 
-use Doctrine\DBAL\Platforms\OraclePlatform;
-use Doctrine\DBAL\Tests\Functional\Platform\AbstractColumnTestCase;
+use Corma\DBAL\Platforms\OraclePlatform;
+use Corma\DBAL\Tests\Functional\Platform\AbstractColumnTestCase;
 
 final class Oracle extends AbstractColumnTestCase
 {

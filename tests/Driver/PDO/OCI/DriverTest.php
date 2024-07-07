@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Driver\PDO\OCI;
+namespace Corma\DBAL\Tests\Driver\PDO\OCI;
 
-use Doctrine\DBAL\Driver as DriverInterface;
-use Doctrine\DBAL\Driver\PDO\OCI\Driver;
-use Doctrine\DBAL\Tests\Driver\AbstractOracleDriverTestCase;
+use Corma\DBAL\Driver as DriverInterface;
+use Corma\DBAL\Driver\PDO\OCI\Driver;
+use Corma\DBAL\Tests\Driver\AbstractOracleDriverTestCase;
 
 class DriverTest extends AbstractOracleDriverTestCase
 {

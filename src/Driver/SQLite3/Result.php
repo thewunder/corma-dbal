@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\SQLite3;
+namespace Corma\DBAL\Driver\SQLite3;
 
-use Doctrine\DBAL\Driver\FetchUtils;
-use Doctrine\DBAL\Driver\Result as ResultInterface;
+use Corma\DBAL\Driver\FetchUtils;
+use Corma\DBAL\Driver\Result as ResultInterface;
 use SQLite3Result;
 
 use const SQLITE3_ASSOC;

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Driver\PDO\SQLite;
+namespace Corma\DBAL\Tests\Functional\Driver\PDO\SQLite;
 
-use Doctrine\DBAL\Driver as DriverInterface;
-use Doctrine\DBAL\Driver\PDO\SQLite\Driver;
-use Doctrine\DBAL\Tests\Functional\Driver\AbstractDriverTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
+use Corma\DBAL\Driver as DriverInterface;
+use Corma\DBAL\Driver\PDO\SQLite\Driver;
+use Corma\DBAL\Tests\Functional\Driver\AbstractDriverTestCase;
+use Corma\DBAL\Tests\TestUtil;
 use PHPUnit\Framework\Attributes\RequiresPhpExtension;
 
 #[RequiresPhpExtension('pdo_sqlite')]

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional;
+namespace Corma\DBAL\Tests\Functional;
 
-use Doctrine\DBAL\Platforms\PostgreSQLPlatform;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Platforms\PostgreSQLPlatform;
+use Corma\DBAL\Tests\FunctionalTestCase;
 use PHPUnit\Framework\Attributes\DataProvider;
 
 class FetchBooleanTest extends FunctionalTestCase

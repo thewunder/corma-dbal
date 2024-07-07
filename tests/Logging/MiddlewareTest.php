@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Logging;
+namespace Corma\DBAL\Tests\Logging;
 
-use Doctrine\DBAL\Driver;
-use Doctrine\DBAL\Driver\Connection;
-use Doctrine\DBAL\Logging\Middleware;
-use Doctrine\DBAL\ParameterType;
+use Corma\DBAL\Driver;
+use Corma\DBAL\Driver\Connection;
+use Corma\DBAL\Logging\Middleware;
+use Corma\DBAL\ParameterType;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\Test\TestLogger;
 

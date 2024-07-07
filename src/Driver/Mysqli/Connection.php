@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\Mysqli;
+namespace Corma\DBAL\Driver\Mysqli;
 
-use Doctrine\DBAL\Driver\Connection as ConnectionInterface;
-use Doctrine\DBAL\Driver\Exception;
-use Doctrine\DBAL\Driver\Mysqli\Exception\ConnectionError;
+use Corma\DBAL\Driver\Connection as ConnectionInterface;
+use Corma\DBAL\Driver\Exception;
+use Corma\DBAL\Driver\Mysqli\Exception\ConnectionError;
 use mysqli;
 use mysqli_sql_exception;
 

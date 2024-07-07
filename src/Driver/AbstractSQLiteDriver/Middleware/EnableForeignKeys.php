@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\AbstractSQLiteDriver\Middleware;
+namespace Corma\DBAL\Driver\AbstractSQLiteDriver\Middleware;
 
-use Doctrine\DBAL\Driver;
-use Doctrine\DBAL\Driver\Connection;
-use Doctrine\DBAL\Driver\Middleware;
-use Doctrine\DBAL\Driver\Middleware\AbstractDriverMiddleware;
+use Corma\DBAL\Driver;
+use Corma\DBAL\Driver\Connection;
+use Corma\DBAL\Driver\Middleware;
+use Corma\DBAL\Driver\Middleware\AbstractDriverMiddleware;
 use SensitiveParameter;
 
 final class EnableForeignKeys implements Middleware

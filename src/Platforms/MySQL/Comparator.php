@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Platforms\MySQL;
+namespace Corma\DBAL\Platforms\MySQL;
 
-use Doctrine\DBAL\Platforms\AbstractMySQLPlatform;
-use Doctrine\DBAL\Schema\Comparator as BaseComparator;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Schema\TableDiff;
+use Corma\DBAL\Platforms\AbstractMySQLPlatform;
+use Corma\DBAL\Schema\Comparator as BaseComparator;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Schema\TableDiff;
 
 use function array_diff_assoc;
 

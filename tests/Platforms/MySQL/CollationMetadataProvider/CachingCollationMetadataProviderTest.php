@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Platforms\MySQL\CollationMetadataProvider;
+namespace Corma\DBAL\Tests\Platforms\MySQL\CollationMetadataProvider;
 
-use Doctrine\DBAL\Platforms\MySQL\CollationMetadataProvider;
-use Doctrine\DBAL\Platforms\MySQL\CollationMetadataProvider\CachingCollationMetadataProvider;
+use Corma\DBAL\Platforms\MySQL\CollationMetadataProvider;
+use Corma\DBAL\Platforms\MySQL\CollationMetadataProvider\CachingCollationMetadataProvider;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

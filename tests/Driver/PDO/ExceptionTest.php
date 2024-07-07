@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Driver\PDO;
+namespace Corma\DBAL\Tests\Driver\PDO;
 
-use Doctrine\DBAL\Driver\PDO\Exception;
+use Corma\DBAL\Driver\PDO\Exception;
 use PDOException;
 use PHPUnit\Framework\Attributes\RequiresPhpExtension;
 use PHPUnit\Framework\TestCase;

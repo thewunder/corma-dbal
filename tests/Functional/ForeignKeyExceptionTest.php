@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional;
+namespace Corma\DBAL\Tests\Functional;
 
-use Doctrine\DBAL\Driver\AbstractSQLServerDriver;
-use Doctrine\DBAL\Driver\IBMDB2;
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Driver\AbstractSQLServerDriver;
+use Corma\DBAL\Driver\IBMDB2;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Tests\FunctionalTestCase;
 
 class ForeignKeyExceptionTest extends FunctionalTestCase
 {

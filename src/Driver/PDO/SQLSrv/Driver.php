@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\PDO\SQLSrv;
+namespace Corma\DBAL\Driver\PDO\SQLSrv;
 
-use Doctrine\DBAL\Driver\AbstractSQLServerDriver;
-use Doctrine\DBAL\Driver\AbstractSQLServerDriver\Exception\PortWithoutHost;
-use Doctrine\DBAL\Driver\Exception;
-use Doctrine\DBAL\Driver\PDO\Connection as PDOConnection;
-use Doctrine\DBAL\Driver\PDO\Exception as PDOException;
+use Corma\DBAL\Driver\AbstractSQLServerDriver;
+use Corma\DBAL\Driver\AbstractSQLServerDriver\Exception\PortWithoutHost;
+use Corma\DBAL\Driver\Exception;
+use Corma\DBAL\Driver\PDO\Connection as PDOConnection;
+use Corma\DBAL\Driver\PDO\Exception as PDOException;
 use PDO;
 use SensitiveParameter;
 

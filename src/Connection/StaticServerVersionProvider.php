@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Connection;
+namespace Corma\DBAL\Connection;
 
-use Doctrine\DBAL\ServerVersionProvider;
+use Corma\DBAL\ServerVersionProvider;
 
 class StaticServerVersionProvider implements ServerVersionProvider
 {

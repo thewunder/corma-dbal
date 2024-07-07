@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\IBMDB2;
+namespace Corma\DBAL\Driver\IBMDB2;
 
-use Doctrine\DBAL\Driver\Connection as ConnectionInterface;
-use Doctrine\DBAL\Driver\Exception\NoIdentityValue;
-use Doctrine\DBAL\Driver\IBMDB2\Exception\ConnectionError;
-use Doctrine\DBAL\Driver\IBMDB2\Exception\PrepareFailed;
-use Doctrine\DBAL\Driver\IBMDB2\Exception\StatementError;
+use Corma\DBAL\Driver\Connection as ConnectionInterface;
+use Corma\DBAL\Driver\Exception\NoIdentityValue;
+use Corma\DBAL\Driver\IBMDB2\Exception\ConnectionError;
+use Corma\DBAL\Driver\IBMDB2\Exception\PrepareFailed;
+use Corma\DBAL\Driver\IBMDB2\Exception\StatementError;
 use stdClass;
 
 use function assert;

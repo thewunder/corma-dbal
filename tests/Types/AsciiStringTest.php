@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Types;
+namespace Corma\DBAL\Tests\Types;
 
-use Doctrine\DBAL\ParameterType;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Types\AsciiStringType;
+use Corma\DBAL\ParameterType;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Types\AsciiStringType;
 use PHPUnit\Framework\TestCase;
 
 class AsciiStringTest extends TestCase

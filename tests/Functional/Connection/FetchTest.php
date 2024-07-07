@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Connection;
+namespace Corma\DBAL\Tests\Functional\Connection;
 
-use Doctrine\DBAL\Exception\NoKeyValue;
-use Doctrine\DBAL\Platforms\SQLServerPlatform;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
+use Corma\DBAL\Exception\NoKeyValue;
+use Corma\DBAL\Platforms\SQLServerPlatform;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Tests\TestUtil;
 
 use function iterator_to_array;
 

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Exception\InvalidColumnType;
+namespace Corma\DBAL\Exception\InvalidColumnType;
 
-use Doctrine\DBAL\Exception\InvalidColumnType;
+use Corma\DBAL\Exception\InvalidColumnType;
 
 /**
  * @internal

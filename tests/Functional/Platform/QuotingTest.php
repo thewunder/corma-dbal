@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Platform;
+namespace Corma\DBAL\Tests\Functional\Platform;
 
-use Doctrine\DBAL\Platforms\OraclePlatform;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Platforms\OraclePlatform;
+use Corma\DBAL\Tests\FunctionalTestCase;
 use PHPUnit\Framework\Attributes\DataProvider;
 
 use function key;

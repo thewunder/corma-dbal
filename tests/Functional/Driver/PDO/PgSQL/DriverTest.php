@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Driver\PDO\PgSQL;
+namespace Corma\DBAL\Tests\Functional\Driver\PDO\PgSQL;
 
-use Doctrine\DBAL\Driver\PDO\PgSQL\Driver;
-use Doctrine\DBAL\Tests\Functional\Driver\AbstractPostgreSQLDriverTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
+use Corma\DBAL\Driver\PDO\PgSQL\Driver;
+use Corma\DBAL\Tests\Functional\Driver\AbstractPostgreSQLDriverTestCase;
+use Corma\DBAL\Tests\TestUtil;
 use PHPUnit\Framework\Attributes\RequiresPhpExtension;
 
 #[RequiresPhpExtension('pdo_pgsql')]

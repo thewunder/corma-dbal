@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver;
+namespace Corma\DBAL\Driver;
 
-use Doctrine\DBAL\Driver;
-use Doctrine\DBAL\Driver\API\ExceptionConverter as ExceptionConverterInterface;
-use Doctrine\DBAL\Driver\API\IBMDB2\ExceptionConverter;
-use Doctrine\DBAL\Platforms\DB2Platform;
-use Doctrine\DBAL\ServerVersionProvider;
+use Corma\DBAL\Driver;
+use Corma\DBAL\Driver\API\ExceptionConverter as ExceptionConverterInterface;
+use Corma\DBAL\Driver\API\IBMDB2\ExceptionConverter;
+use Corma\DBAL\Platforms\DB2Platform;
+use Corma\DBAL\ServerVersionProvider;
 
 /**
  * Abstract base implementation of the {@see Driver} interface for IBM DB2 based drivers.

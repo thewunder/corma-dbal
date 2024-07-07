@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Platform\ColumnTest;
+namespace Corma\DBAL\Tests\Functional\Platform\ColumnTest;
 
-use Doctrine\DBAL\Platforms\PostgreSQLPlatform;
-use Doctrine\DBAL\Tests\Functional\Platform\AbstractColumnTestCase;
+use Corma\DBAL\Platforms\PostgreSQLPlatform;
+use Corma\DBAL\Tests\Functional\Platform\AbstractColumnTestCase;
 
 final class PostgreSQL extends AbstractColumnTestCase
 {

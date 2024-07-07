@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\PDO;
+namespace Corma\DBAL\Driver\PDO;
 
-use Doctrine\DBAL\Driver\Result as ResultInterface;
+use Corma\DBAL\Driver\Result as ResultInterface;
 use PDO;
 use PDOException;
 use PDOStatement;

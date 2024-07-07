@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Driver;
+namespace Corma\DBAL\Tests\Functional\Driver;
 
-use Doctrine\DBAL\Driver\AbstractPostgreSQLDriver;
+use Corma\DBAL\Driver\AbstractPostgreSQLDriver;
 
 use function array_key_exists;
 use function microtime;

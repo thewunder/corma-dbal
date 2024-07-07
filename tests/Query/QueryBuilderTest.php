@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Query;
+namespace Corma\DBAL\Tests\Query;
 
-use Doctrine\DBAL\ArrayParameterType;
-use Doctrine\DBAL\Cache\QueryCacheProfile;
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\ParameterType;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Query\Expression\ExpressionBuilder;
-use Doctrine\DBAL\Query\QueryBuilder;
-use Doctrine\DBAL\Query\QueryException;
-use Doctrine\DBAL\Result;
-use Doctrine\DBAL\SQL\Builder\DefaultSelectSQLBuilder;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\ArrayParameterType;
+use Corma\DBAL\Cache\QueryCacheProfile;
+use Corma\DBAL\Connection;
+use Corma\DBAL\ParameterType;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Query\Expression\ExpressionBuilder;
+use Corma\DBAL\Query\QueryBuilder;
+use Corma\DBAL\Query\QueryException;
+use Corma\DBAL\Result;
+use Corma\DBAL\SQL\Builder\DefaultSelectSQLBuilder;
+use Corma\DBAL\Types\Types;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;

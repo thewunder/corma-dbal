@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\LockMode;
+namespace Corma\DBAL\Tests\Functional\LockMode;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\DriverManager;
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\LockMode;
-use Doctrine\DBAL\Platforms\SQLitePlatform;
-use Doctrine\DBAL\Platforms\SQLServerPlatform;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
-use Doctrine\DBAL\TransactionIsolationLevel;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Connection;
+use Corma\DBAL\DriverManager;
+use Corma\DBAL\Exception;
+use Corma\DBAL\LockMode;
+use Corma\DBAL\Platforms\SQLitePlatform;
+use Corma\DBAL\Platforms\SQLServerPlatform;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Tests\TestUtil;
+use Corma\DBAL\TransactionIsolationLevel;
+use Corma\DBAL\Types\Types;
 
 class NoneTest extends FunctionalTestCase
 {

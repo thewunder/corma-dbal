@@ -7,8 +7,8 @@ The command may be added to the application as follows:
 
 .. code-block:: php
 
-    use Doctrine\DBAL\Connection;
-    use Doctrine\DBAL\Tools\Console\ConnectionProvider\SingleConnectionProvider;
+    use Corma\DBAL\Connection;
+    use Corma\DBAL\Tools\Console\ConnectionProvider\SingleConnectionProvider;
     use Symfony\Component\Console\Application;
 
     /** @var Connection $connection */

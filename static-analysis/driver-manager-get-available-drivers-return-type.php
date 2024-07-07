@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Doctrine\StaticAnalysis\DBAL;
 
-use Doctrine\DBAL\DriverManager;
+use Corma\DBAL\DriverManager;
 use RuntimeException;
 
 use function getenv;

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Query;
+namespace Corma\DBAL\Query;
 
-use Doctrine\DBAL\Exception;
+use Corma\DBAL\Exception;
 
 /** @psalm-immutable */
 class QueryException extends \Exception implements Exception

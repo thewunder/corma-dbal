@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver\PDO\PgSQL;
+namespace Corma\DBAL\Driver\PDO\PgSQL;
 
-use Doctrine\DBAL\Driver\AbstractPostgreSQLDriver;
-use Doctrine\DBAL\Driver\PDO\Connection;
-use Doctrine\DBAL\Driver\PDO\Exception;
+use Corma\DBAL\Driver\AbstractPostgreSQLDriver;
+use Corma\DBAL\Driver\PDO\Connection;
+use Corma\DBAL\Driver\PDO\Exception;
 use PDO;
 use PDOException;
 use SensitiveParameter;

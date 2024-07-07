@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL;
+namespace Corma\DBAL;
 
 /**
  * Contains portable column case conversions.

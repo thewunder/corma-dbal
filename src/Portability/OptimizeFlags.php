@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Portability;
+namespace Corma\DBAL\Portability;
 
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Platforms\DB2Platform;
-use Doctrine\DBAL\Platforms\OraclePlatform;
-use Doctrine\DBAL\Platforms\PostgreSQLPlatform;
-use Doctrine\DBAL\Platforms\SQLitePlatform;
-use Doctrine\DBAL\Platforms\SQLServerPlatform;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Platforms\DB2Platform;
+use Corma\DBAL\Platforms\OraclePlatform;
+use Corma\DBAL\Platforms\PostgreSQLPlatform;
+use Corma\DBAL\Platforms\SQLitePlatform;
+use Corma\DBAL\Platforms\SQLServerPlatform;
 
 final class OptimizeFlags
 {

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\SQL;
+namespace Corma\DBAL\SQL;
 
-use Doctrine\DBAL\SQL\Parser\Exception;
-use Doctrine\DBAL\SQL\Parser\Exception\RegularExpressionError;
-use Doctrine\DBAL\SQL\Parser\Visitor;
+use Corma\DBAL\SQL\Parser\Exception;
+use Corma\DBAL\SQL\Parser\Exception\RegularExpressionError;
+use Corma\DBAL\SQL\Parser\Visitor;
 
 use function array_merge;
 use function assert;

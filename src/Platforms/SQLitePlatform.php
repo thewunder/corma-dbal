@@ -2,25 +2,25 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Platforms;
+namespace Corma\DBAL\Platforms;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Platforms\Exception\NotSupported;
-use Doctrine\DBAL\Platforms\Keywords\KeywordList;
-use Doctrine\DBAL\Platforms\Keywords\SQLiteKeywords;
-use Doctrine\DBAL\Schema\Column;
-use Doctrine\DBAL\Schema\Exception\ColumnDoesNotExist;
-use Doctrine\DBAL\Schema\ForeignKeyConstraint;
-use Doctrine\DBAL\Schema\Identifier;
-use Doctrine\DBAL\Schema\Index;
-use Doctrine\DBAL\Schema\SQLiteSchemaManager;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Schema\TableDiff;
-use Doctrine\DBAL\SQL\Builder\DefaultSelectSQLBuilder;
-use Doctrine\DBAL\SQL\Builder\SelectSQLBuilder;
-use Doctrine\DBAL\TransactionIsolationLevel;
-use Doctrine\DBAL\Types;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Platforms\Exception\NotSupported;
+use Corma\DBAL\Platforms\Keywords\KeywordList;
+use Corma\DBAL\Platforms\Keywords\SQLiteKeywords;
+use Corma\DBAL\Schema\Column;
+use Corma\DBAL\Schema\Exception\ColumnDoesNotExist;
+use Corma\DBAL\Schema\ForeignKeyConstraint;
+use Corma\DBAL\Schema\Identifier;
+use Corma\DBAL\Schema\Index;
+use Corma\DBAL\Schema\SQLiteSchemaManager;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Schema\TableDiff;
+use Corma\DBAL\SQL\Builder\DefaultSelectSQLBuilder;
+use Corma\DBAL\SQL\Builder\SelectSQLBuilder;
+use Corma\DBAL\TransactionIsolationLevel;
+use Corma\DBAL\Types;
 use InvalidArgumentException;
 
 use function array_combine;

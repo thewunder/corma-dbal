@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\SQL\Builder;
+namespace Corma\DBAL\SQL\Builder;
 
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Schema\Schema;
-use Doctrine\DBAL\Schema\Sequence;
-use Doctrine\DBAL\Schema\Table;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Schema\Schema;
+use Corma\DBAL\Schema\Sequence;
+use Corma\DBAL\Schema\Table;
 
 use function array_merge;
 

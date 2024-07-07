@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Driver;
+namespace Corma\DBAL\Driver;
 
-use Doctrine\DBAL\ServerVersionProvider;
+use Corma\DBAL\ServerVersionProvider;
 
 /**
  * Connection interface.

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Connection;
+namespace Corma\DBAL\Tests\Functional\Connection;
 
-use Doctrine\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Tests\FunctionalTestCase;
 
 use function sprintf;
 

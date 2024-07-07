@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Driver;
+namespace Corma\DBAL\Tests\Driver;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Driver\API\ExceptionConverter;
-use Doctrine\DBAL\Driver\API\MySQL;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Platforms\MySQLPlatform;
-use Doctrine\DBAL\Schema\AbstractSchemaManager;
-use Doctrine\DBAL\Schema\MySQLSchemaManager;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Driver\API\ExceptionConverter;
+use Corma\DBAL\Driver\API\MySQL;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Platforms\MySQLPlatform;
+use Corma\DBAL\Schema\AbstractSchemaManager;
+use Corma\DBAL\Schema\MySQLSchemaManager;
 
 /** @extends AbstractDriverTestCase<MySQLPlatform> */
 abstract class AbstractMySQLDriverTestCase extends AbstractDriverTestCase

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Schema;
+namespace Corma\DBAL\Schema;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Exception;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Exception;
 
 /**
  * A schema manager factory that returns the default schema manager for the given platform.

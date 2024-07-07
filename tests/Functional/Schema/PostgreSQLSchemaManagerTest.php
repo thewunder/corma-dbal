@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Schema;
+namespace Corma\DBAL\Tests\Functional\Schema;
 
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Platforms\PostgreSQLPlatform;
-use Doctrine\DBAL\Schema\ForeignKeyConstraint;
-use Doctrine\DBAL\Schema\Schema;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Schema\View;
-use Doctrine\DBAL\Types\BlobType;
-use Doctrine\DBAL\Types\DecimalType;
-use Doctrine\DBAL\Types\IntegerType;
-use Doctrine\DBAL\Types\JsonType;
-use Doctrine\DBAL\Types\TextType;
-use Doctrine\DBAL\Types\Type;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Platforms\PostgreSQLPlatform;
+use Corma\DBAL\Schema\ForeignKeyConstraint;
+use Corma\DBAL\Schema\Schema;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Schema\View;
+use Corma\DBAL\Types\BlobType;
+use Corma\DBAL\Types\DecimalType;
+use Corma\DBAL\Types\IntegerType;
+use Corma\DBAL\Types\JsonType;
+use Corma\DBAL\Types\TextType;
+use Corma\DBAL\Types\Type;
+use Corma\DBAL\Types\Types;
 use PHPUnit\Framework\Attributes\DataProvider;
 
 use function array_map;

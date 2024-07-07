@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Connection;
+namespace Corma\DBAL\Tests\Connection;
 
-use Doctrine\DBAL\Cache\ArrayResult;
-use Doctrine\DBAL\Cache\QueryCacheProfile;
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Driver;
+use Corma\DBAL\Cache\ArrayResult;
+use Corma\DBAL\Cache\QueryCacheProfile;
+use Corma\DBAL\Connection;
+use Corma\DBAL\Driver;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Cache\Adapter\ArrayAdapter;
 

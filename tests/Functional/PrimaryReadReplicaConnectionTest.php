@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional;
+namespace Corma\DBAL\Tests\Functional;
 
-use Doctrine\DBAL\Connections\PrimaryReadReplicaConnection;
-use Doctrine\DBAL\DriverManager;
-use Doctrine\DBAL\Platforms\AbstractMySQLPlatform;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Connections\PrimaryReadReplicaConnection;
+use Corma\DBAL\DriverManager;
+use Corma\DBAL\Platforms\AbstractMySQLPlatform;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Types\Types;
 use Throwable;
 
 use function array_change_key_case;

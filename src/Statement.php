@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL;
+namespace Corma\DBAL;
 
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Types\Type;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Types\Type;
 
 use function is_string;
 

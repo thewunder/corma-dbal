@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Platform;
+namespace Corma\DBAL\Tests\Functional\Platform;
 
-use Doctrine\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Tests\FunctionalTestCase;
 use PHPUnit\Framework\Attributes\DataProvider;
 
 final class ConcatExpressionTest extends FunctionalTestCase

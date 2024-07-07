@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Schema;
+namespace Corma\DBAL\Tests\Functional\Schema;
 
-use Doctrine\DBAL\Exception\DatabaseObjectNotFoundException;
-use Doctrine\DBAL\Platforms\AbstractPlatform;
-use Doctrine\DBAL\Platforms\OraclePlatform;
-use Doctrine\DBAL\Schema\Index;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Tests\TestUtil;
-use Doctrine\DBAL\Types\BinaryType;
-use Doctrine\DBAL\Types\DateTimeType;
-use Doctrine\DBAL\Types\DateTimeTzType;
-use Doctrine\DBAL\Types\DateType;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Exception\DatabaseObjectNotFoundException;
+use Corma\DBAL\Platforms\AbstractPlatform;
+use Corma\DBAL\Platforms\OraclePlatform;
+use Corma\DBAL\Schema\Index;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Tests\TestUtil;
+use Corma\DBAL\Types\BinaryType;
+use Corma\DBAL\Types\DateTimeType;
+use Corma\DBAL\Types\DateTimeTzType;
+use Corma\DBAL\Types\DateType;
+use Corma\DBAL\Types\Types;
 
 use function array_map;
 

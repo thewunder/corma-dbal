@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Platforms\MySQL\CharsetMetadataProvider;
+namespace Corma\DBAL\Platforms\MySQL\CharsetMetadataProvider;
 
-use Doctrine\DBAL\Platforms\MySQL\CharsetMetadataProvider;
+use Corma\DBAL\Platforms\MySQL\CharsetMetadataProvider;
 
 use function array_key_exists;
 

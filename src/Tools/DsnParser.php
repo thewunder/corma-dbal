@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tools;
+namespace Corma\DBAL\Tools;
 
-use Doctrine\DBAL\Driver;
-use Doctrine\DBAL\DriverManager;
-use Doctrine\DBAL\Exception\MalformedDsnException;
+use Corma\DBAL\Driver;
+use Corma\DBAL\DriverManager;
+use Corma\DBAL\Exception\MalformedDsnException;
 use SensitiveParameter;
 
 use function array_merge;

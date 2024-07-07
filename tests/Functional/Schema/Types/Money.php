@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\Schema\Types;
+namespace Corma\DBAL\Tests\Functional\Schema\Types;
 
 final class Money implements \Stringable
 {

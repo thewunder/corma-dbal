@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional;
+namespace Corma\DBAL\Tests\Functional;
 
 use Closure;
 use DateTime;
-use Doctrine\DBAL\Driver;
-use Doctrine\DBAL\Driver\Exception\IdentityColumnsNotSupported;
-use Doctrine\DBAL\Driver\Exception\NoIdentityValue;
-use Doctrine\DBAL\Exception\DriverException;
-use Doctrine\DBAL\ParameterType;
-use Doctrine\DBAL\Schema\Table;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
-use Doctrine\DBAL\Types\Types;
+use Corma\DBAL\Driver;
+use Corma\DBAL\Driver\Exception\IdentityColumnsNotSupported;
+use Corma\DBAL\Driver\Exception\NoIdentityValue;
+use Corma\DBAL\Exception\DriverException;
+use Corma\DBAL\ParameterType;
+use Corma\DBAL\Schema\Table;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Tests\TestUtil;
+use Corma\DBAL\Types\Types;
 use Throwable;
 
 class WriteTest extends FunctionalTestCase

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Functional\ParameterTypes;
+namespace Corma\DBAL\Tests\Functional\ParameterTypes;
 
-use Doctrine\DBAL\ParameterType;
-use Doctrine\DBAL\Tests\FunctionalTestCase;
-use Doctrine\DBAL\Tests\TestUtil;
+use Corma\DBAL\ParameterType;
+use Corma\DBAL\Tests\FunctionalTestCase;
+use Corma\DBAL\Tests\TestUtil;
 
 class AsciiTest extends FunctionalTestCase
 {

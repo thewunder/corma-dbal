@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Platforms\Keywords;
+namespace Corma\DBAL\Platforms\Keywords;
 
 class MariaDBKeywords extends MySQLKeywords
 {

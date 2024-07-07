@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Exception;
+namespace Corma\DBAL\Tests\Exception;
 
-use Doctrine\DBAL\Exception\DriverRequired;
+use Corma\DBAL\Exception\DriverRequired;
 use PHPUnit\Framework\TestCase;
 
 use function sprintf;

@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Tests\Types;
+namespace Corma\DBAL\Tests\Types;
 
-use Doctrine\DBAL\Exception;
-use Doctrine\DBAL\Types\BinaryType;
-use Doctrine\DBAL\Types\BlobType;
-use Doctrine\DBAL\Types\Exception\TypeNotRegistered;
-use Doctrine\DBAL\Types\StringType;
-use Doctrine\DBAL\Types\TextType;
-use Doctrine\DBAL\Types\TypeRegistry;
+use Corma\DBAL\Exception;
+use Corma\DBAL\Types\BinaryType;
+use Corma\DBAL\Types\BlobType;
+use Corma\DBAL\Types\Exception\TypeNotRegistered;
+use Corma\DBAL\Types\StringType;
+use Corma\DBAL\Types\TextType;
+use Corma\DBAL\Types\TypeRegistry;
 use PHPUnit\Framework\TestCase;
 
 class TypeRegistryTest extends TestCase

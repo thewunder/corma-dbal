@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Query\ForUpdate;
+namespace Corma\DBAL\Query\ForUpdate;
 
 enum ConflictResolutionMode
 {

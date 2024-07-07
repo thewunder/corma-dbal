@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL;
+namespace Corma\DBAL;
 
-use Doctrine\DBAL\Driver\IBMDB2;
-use Doctrine\DBAL\Driver\Mysqli;
-use Doctrine\DBAL\Driver\OCI8;
-use Doctrine\DBAL\Driver\PDO;
-use Doctrine\DBAL\Driver\PgSQL;
-use Doctrine\DBAL\Driver\SQLite3;
-use Doctrine\DBAL\Driver\SQLSrv;
-use Doctrine\DBAL\Exception\DriverRequired;
-use Doctrine\DBAL\Exception\InvalidDriverClass;
-use Doctrine\DBAL\Exception\InvalidWrapperClass;
-use Doctrine\DBAL\Exception\UnknownDriver;
+use Corma\DBAL\Driver\IBMDB2;
+use Corma\DBAL\Driver\Mysqli;
+use Corma\DBAL\Driver\OCI8;
+use Corma\DBAL\Driver\PDO;
+use Corma\DBAL\Driver\PgSQL;
+use Corma\DBAL\Driver\SQLite3;
+use Corma\DBAL\Driver\SQLSrv;
+use Corma\DBAL\Exception\DriverRequired;
+use Corma\DBAL\Exception\InvalidDriverClass;
+use Corma\DBAL\Exception\InvalidWrapperClass;
+use Corma\DBAL\Exception\UnknownDriver;
 use SensitiveParameter;
 
 use function array_keys;

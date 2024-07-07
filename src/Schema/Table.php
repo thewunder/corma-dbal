@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL\Schema;
+namespace Corma\DBAL\Schema;
 
-use Doctrine\DBAL\Schema\Exception\ColumnAlreadyExists;
-use Doctrine\DBAL\Schema\Exception\ColumnDoesNotExist;
-use Doctrine\DBAL\Schema\Exception\ForeignKeyDoesNotExist;
-use Doctrine\DBAL\Schema\Exception\IndexAlreadyExists;
-use Doctrine\DBAL\Schema\Exception\IndexDoesNotExist;
-use Doctrine\DBAL\Schema\Exception\IndexNameInvalid;
-use Doctrine\DBAL\Schema\Exception\InvalidTableName;
-use Doctrine\DBAL\Schema\Exception\UniqueConstraintDoesNotExist;
-use Doctrine\DBAL\Types\Type;
+use Corma\DBAL\Schema\Exception\ColumnAlreadyExists;
+use Corma\DBAL\Schema\Exception\ColumnDoesNotExist;
+use Corma\DBAL\Schema\Exception\ForeignKeyDoesNotExist;
+use Corma\DBAL\Schema\Exception\IndexAlreadyExists;
+use Corma\DBAL\Schema\Exception\IndexDoesNotExist;
+use Corma\DBAL\Schema\Exception\IndexNameInvalid;
+use Corma\DBAL\Schema\Exception\InvalidTableName;
+use Corma\DBAL\Schema\Exception\UniqueConstraintDoesNotExist;
+use Corma\DBAL\Types\Type;
 
 use function array_merge;
 use function array_values;

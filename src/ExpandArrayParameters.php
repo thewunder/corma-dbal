@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Doctrine\DBAL;
+namespace Corma\DBAL;
 
-use Doctrine\DBAL\ArrayParameters\Exception\MissingNamedParameter;
-use Doctrine\DBAL\ArrayParameters\Exception\MissingPositionalParameter;
-use Doctrine\DBAL\SQL\Parser\Visitor;
-use Doctrine\DBAL\Types\Type;
+use Corma\DBAL\ArrayParameters\Exception\MissingNamedParameter;
+use Corma\DBAL\ArrayParameters\Exception\MissingPositionalParameter;
+use Corma\DBAL\SQL\Parser\Visitor;
+use Corma\DBAL\Types\Type;
 
 use function array_fill;
 use function array_key_exists;
