@@ -99,7 +99,7 @@ final class DriverManager
 
     /**
      * Creates a connection object based on the specified parameters.
-     * This method returns a Doctrine\DBAL\Connection which wraps the underlying
+     * This method returns a Corma\DBAL\Connection which wraps the underlying
      * driver connection.
      *
      * $params must contain at least one of the following.
@@ -122,7 +122,7 @@ final class DriverManager
      *
      * <b>wrapperClass</b>:
      * You may specify a custom wrapper class through the 'wrapperClass'
-     * parameter but this class MUST inherit from Doctrine\DBAL\Connection.
+     * parameter but this class MUST inherit from Corma\DBAL\Connection.
      *
      * <b>driverClass</b>:
      * The driver class to use.

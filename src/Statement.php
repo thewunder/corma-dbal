@@ -65,7 +65,7 @@ class Statement
      *                                         using question mark placeholders, this will be the 1-indexed position
      *                                         of the parameter.
      * @param mixed                     $value The value to bind to the parameter.
-     * @param ParameterType|string|Type $type  Either a {@see \Doctrine\DBAL\ParameterType} or a DBAL mapping type name
+     * @param ParameterType|string|Type $type  Either a {@see \Corma\DBAL\ParameterType} or a DBAL mapping type name
      *                                or instance.
      *
      * @throws Exception

@@ -63,7 +63,7 @@ use function count;
  * @example
  *
  * $conn = DriverManager::getConnection(array(
- *    'wrapperClass' => 'Doctrine\DBAL\Connections\PrimaryReadReplicaConnection',
+ *    'wrapperClass' => 'Corma\DBAL\Connections\PrimaryReadReplicaConnection',
  *    'driver' => 'pdo_mysql',
  *    'primary' => array('user' => '', 'password' => '', 'host' => '', 'dbname' => ''),
  *    'replica' => array(
