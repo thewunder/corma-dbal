@@ -1487,16 +1487,25 @@ class QueryBuilder implements \Stringable
         return $this->type;
     }
 
+    /**
+     * @return string[]
+     */
     public function getSelect(): array
     {
         return $this->select;
     }
 
+    /**
+     * @return From[]
+     */
     public function getFrom(): array
     {
         return $this->from;
     }
 
+    /**
+     * @return Join[][]
+     */
     public function getJoin(): array
     {
         return $this->join;
@@ -1507,6 +1516,9 @@ class QueryBuilder implements \Stringable
         return $this->where;
     }
 
+    /**
+     * @return string[]
+     */
     public function getGroupBy(): array
     {
         return $this->groupBy;
@@ -1517,6 +1529,9 @@ class QueryBuilder implements \Stringable
         return $this->having;
     }
 
+    /**
+     * @return string[]
+     */
     public function getOrderBy(): array
     {
         return $this->orderBy;
@@ -1547,6 +1562,9 @@ class QueryBuilder implements \Stringable
         return $this->values;
     }
 
+    /**
+     * @return string[]
+     */
     public function getSet(): array
     {
         return $this->set;
